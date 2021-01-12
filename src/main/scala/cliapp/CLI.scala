@@ -9,11 +9,10 @@ import scala.collection.mutable.Set
 object CLI extends App {
   val commandPattern: Regex = "(\\w+)".r
   val commandArgPattern: Regex = "(\\w+)\\s*(.*)".r
-  var words = ArrayBuffer[String] ("test")
+  var words = ArrayBuffer[String]("test")
   greeting()
   helpMenu()
   begin()
-
 
   def greeting() {
     println()
@@ -37,25 +36,29 @@ object CLI extends App {
     println()
   }
 
-  def listWords(){
+  def listWords() {
     println("Here is a list of all the words the computer may choose:")
     words.foreach(println)
     println()
   }
 
-  def addWord(arg : String){
+  def addWord(arg: String) {
     words += arg
     println()
   }
 
-  def deleteWord(arg : String){
+  def deleteWord(arg: String) {
     words -= arg
     println()
   }
 
-  def startGame(){
+  def selectWord(): Array[Char] = {
     var selectedWord = words(Random.nextInt(words.size))
-    var splitWord = selectedWord.toLowerCase.toArray
+    return selectedWord.toLowerCase.toArray
+  }
+
+  def startGame() {
+    var splitWord = selectWord()
 
     println("How many guesses would you like?")
     val totalGuesses = StdIn.readInt()
@@ -70,7 +73,7 @@ object CLI extends App {
 
     var continueGame = true
 
-    while (continueGame){
+    while (continueGame) {
       correctLetters.foreach(print)
       println("\n")
       println(s"Guesses left: ${totalGuesses - currentGuesses}")
@@ -79,10 +82,9 @@ object CLI extends App {
       println()
       var index = 0
 
-      if (attemptedLetters.contains(guessChar + ", ")){
+      if (attemptedLetters.contains(guessChar + ", ")) {
         println("You already tried that letter, choose a different one.")
-      }
-      else if (splitWord.contains(guessChar)) {
+      } else if (splitWord.contains(guessChar)) {
         println("Correct!")
         for (index <- 0 until splitWord.size) {
           if (guessChar.equals(splitWord(index))) {
@@ -90,31 +92,47 @@ object CLI extends App {
             correctLetters(index) = guessChar + " "
           }
         }
-      } 
-      else {
+      } else {
         println("Good guess, but not this time.")
         currentGuesses += 1
       }
 
-      attemptedLetters += guessChar + ", "
-      print("Letters you've guessed: ")
-      attemptedLetters.foreach(print)
-      println("\n")
+      attemptedLetters = updateAttemptedLetters(attemptedLetters, guessChar)
 
-      if (correctGuesses == splitWord.size){
-        println("You got it!")
-        println("Type 'play' to go again, or 'exit' to quit.")
-        println()
-        continueGame = false
-      }
-      if (currentGuesses == totalGuesses){
-        println("Looks like I win this round!")
-        println("Type 'play' to try again, or 'exit' to quit")
-        println()
-        continueGame = false
+      continueGame = testUserWin(correctGuesses, splitWord.size)
+      if (continueGame) {
+        continueGame = testUserLoss(currentGuesses, totalGuesses)
       }
     }
 
+  }
+
+  def updateAttemptedLetters(attemptedLetters: Set[String], guessChar: Char): Set[String] = {
+    attemptedLetters += guessChar + ", "
+    print("Letters you've guessed: ")
+    attemptedLetters.foreach(print)
+    println("\n")
+    return attemptedLetters
+  }
+
+  def testUserWin(correctGuesses: Int, requiredGuesses: Int): Boolean = {
+    if (correctGuesses == requiredGuesses) {
+      println("You got it!")
+      println("Type 'play' to go again, or 'exit' to quit.")
+      println()
+      return false
+    }
+    return true
+  }
+
+  def testUserLoss(currentGuesses: Int, totalGuesses: Int): Boolean = {
+    if (currentGuesses == totalGuesses) {
+      println("Looks like I win this round!")
+      println("Type 'play' to try again, or 'exit' to quit")
+      println()
+      return false
+    }
+    return true
   }
 
   def begin() {
@@ -141,9 +159,11 @@ object CLI extends App {
           deleteWord(arg)
         }
         case _ => {
-          println("I'm not sure what that command is.\n" +
-            "Type 'help' to see a list of commands.")
-            println()
+          println(
+            "I'm not sure what that command is.\n" +
+              "Type 'help' to see a list of commands."
+          )
+          println()
         }
       }
     }
