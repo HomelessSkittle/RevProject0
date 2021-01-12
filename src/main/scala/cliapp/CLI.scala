@@ -5,15 +5,20 @@ import scala.util.matching.Regex
 import scala.collection.mutable.ArrayBuffer
 import scala.util.Random
 import scala.collection.mutable.Set
+import java.io.FileNotFoundException
 
 object CLI extends App {
   val commandPattern: Regex = "(\\w+)".r
   val commandArgPattern: Regex = "(\\w+)\\s*(.*)".r
-  var words = ArrayBuffer[String]("test")
+  var words = createWordList()
   greeting()
   helpMenu()
   begin()
 
+
+  /**
+    * Basic greeting for the Hangman Application
+    */
   def greeting() {
     println()
     println(
@@ -23,40 +28,94 @@ object CLI extends App {
     )
   }
 
+  /**
+    * Prints out a list of the commands available to the user
+    */
   def helpMenu() {
     println(
       "Here is a list of available commands/options:\n" +
-        "(Note: Commands are NOT case sensitive)\n" +
+        "(Note: Commands are NOT case sensitive)\n\n" +
         "Play - Begins a new game of Hangman with a new word.\n" +
         "List - Lists all the words the computer can select for a game.\n" +
         "Add <new word> - Adds a word to the list of words.\n" +
-        "Delete <target word> - Removes a word from the list.\n" +
-        "exit - Ends the program."
+        "Remove <target word> - Removes a word from the list.\n" +
+        "exit - Ends the program.\n"
     )
-    println()
   }
 
+  def createWordList(): Array[String] = {
+    try {
+      var wordString = FileUtil.getFileString()
+      var wordArray = wordString.split(" ")
+      return wordArray
+    } catch {
+      case fnfe: FileNotFoundException => {
+        println(s"Failed to find file: ${fnfe.getMessage}")
+        return Array[String]()
+      }
+    }
+  }
+
+  /**
+    * Prints out all of the words the computer may choose from
+    */
   def listWords() {
     println("Here is a list of all the words the computer may choose:")
+    words = createWordList()
     words.foreach(println)
     println()
   }
 
+  /**
+    * Adds a word to the list the computer may choose from
+    * TODO: Have this add a word to a CSV file
+    *
+    * @param arg - The string to be added to the list
+    */
   def addWord(arg: String) {
-    words += arg
-    println()
+    FileUtil.writeToFile(arg)
+    println(s"Successfully added $arg to the list of words.\n")
   }
 
+  /**
+    * Removes a word from the list the computer may choose from
+    * TODO: Have this delete a word from a CSV file
+    *
+    * @param arg - The string to be removed from the list
+    */
   def deleteWord(arg: String) {
-    words -= arg
-    println()
+    FileUtil.removeFromFile(arg)
+    println(s"Successfully removed $arg from the list of words.\n")
   }
 
+  /**
+    * Helper function for startGame().
+    * Chooses a random word from the list of available words.
+    * Splits the word into an Array[Char]
+    * TODO: Select a random word from a CSV file instead of a hardcoded array
+    *
+    * @return - Returns an Array[Char] of the word
+    */
   def selectWord(): Array[Char] = {
     var selectedWord = words(Random.nextInt(words.size))
     return selectedWord.toLowerCase.toArray
   }
 
+  /**
+    * The core logic of the Hangman game.
+    * First reads user input for number of guesses, then
+    *   continues the game until the user successfully completes a
+    *   game or runs out of guesses
+    * 
+    * Edge Cases I don't feel like handling: 
+    *  - User gives an absurdly high number of guesses
+    *     Not technically an issue, but it's a guaranteed win
+    *  - User types more than a single character
+    *     I don't think this is possible, but maybe?
+    *  - User wants to exit while still playing a game
+    *     Currently, they have to drain their guesses or win, which
+    *     is a little user-unfriendly.
+    */
   def startGame() {
     var splitWord = selectWord()
 
@@ -107,6 +166,13 @@ object CLI extends App {
 
   }
 
+  /**
+    * Updates the Set of letters the user has tried to guess so far in the current game
+    *
+    * @param attemptedLetters - Set of letters user has already attempted
+    * @param guessChar - Most recent character the user has guessed
+    * @return - Returns the Set[String] of characters the user has guessed so far
+    */
   def updateAttemptedLetters(attemptedLetters: Set[String], guessChar: Char): Set[String] = {
     attemptedLetters += guessChar + ", "
     print("Letters you've guessed: ")
@@ -115,26 +181,41 @@ object CLI extends App {
     return attemptedLetters
   }
 
+  /**
+    * Tests to see if the user has won the game
+    *
+    * @param correctGuesses - The number of correct guesses the user has so far
+    * @param requiredGuesses - The number of correct guesses required to win the game
+    * @return - Returns false if the user has won, otherwise true
+    */
   def testUserWin(correctGuesses: Int, requiredGuesses: Int): Boolean = {
     if (correctGuesses == requiredGuesses) {
       println("You got it!")
-      println("Type 'play' to go again, or 'exit' to quit.")
-      println()
+      println("Type 'play' to go again, 'exit' to quit, or 'help' to see more options.\n")
       return false
     }
     return true
   }
 
+  /**
+    * Tests to see if the user has lost the game
+    *
+    * @param currentGuesses - The number of valid guesses the user has attempted so far
+    * @param totalGuesses - The total number of guesses the user has before they lose
+    * @return - Returns false if the user has lost, otherwise true
+    */
   def testUserLoss(currentGuesses: Int, totalGuesses: Int): Boolean = {
     if (currentGuesses == totalGuesses) {
       println("Looks like I win this round!")
-      println("Type 'play' to try again, or 'exit' to quit")
-      println()
+      println("Type 'play' to try again, 'exit' to quit, or 'help' to see more options.\n")
       return false
     }
     return true
   }
 
+  /**
+    * Looping menu of options to get user input outside of a game
+    */
   def begin() {
     var continueLoop = true
     while (continueLoop) {
@@ -155,19 +236,18 @@ object CLI extends App {
         case commandArgPattern(cmd, arg) if cmd.equalsIgnoreCase("add") => {
           addWord(arg)
         }
-        case commandArgPattern(cmd, arg) if cmd.equalsIgnoreCase("delete") => {
+        case commandArgPattern(cmd, arg) if cmd.equalsIgnoreCase("remove") => {
           deleteWord(arg)
         }
         case _ => {
           println(
             "I'm not sure what that command is.\n" +
-              "Type 'help' to see a list of commands."
+              "Type 'help' to see a list of commands.\n"
           )
-          println()
         }
       }
     }
 
-    println("Thanks for playing!")
+    println("Thanks for playing!\n")
   }
 }

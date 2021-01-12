@@ -2850,3 +2850,1414 @@ java.lang.NullPointerException
 2021.01.12 15:56:47 INFO  time: compiled root in 0.76s
 Jan 12, 2021 3:58:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTraceNotification
+Jan 12, 2021 4:01:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1020
+Jan 12, 2021 4:02:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1058
+2021.01.12 16:02:15 INFO  compiling root (1 scala source)
+2021.01.12 16:02:15 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:02:15 INFO  time: compiled root in 0.82s
+2021.01.12 16:03:32 INFO  compiling root (1 scala source)
+2021.01.12 16:03:32 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:03:32 INFO  time: compiled root in 0.75s
+2021.01.12 16:03:49 INFO  compiling root (1 scala source)
+2021.01.12 16:03:50 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:03:50 INFO  time: compiled root in 1.03s
+2021.01.12 16:04:30 INFO  compiling root (1 scala source)
+2021.01.12 16:04:30 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:04:30 INFO  time: compiled root in 0.74s
+2021.01.12 16:04:40 INFO  compiling root (1 scala source)
+2021.01.12 16:04:40 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:04:40 INFO  time: compiled root in 0.71s
+Jan 12, 2021 4:05:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1517
+Jan 12, 2021 4:05:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1558
+Jan 12, 2021 4:05:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1571
+Jan 12, 2021 4:06:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1730
+Jan 12, 2021 4:08:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1965
+Jan 12, 2021 4:09:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2250
+Jan 12, 2021 4:10:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2385
+2021.01.12 16:14:12 INFO  compiling root (1 scala source)
+2021.01.12 16:14:12 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:14:12 INFO  time: compiled root in 0.74s
+2021.01.12 16:14:23 INFO  compiling root (1 scala source)
+2021.01.12 16:14:23 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:14:23 INFO  time: compiled root in 0.74s
+2021.01.12 16:14:30 INFO  compiling root (1 scala source)
+2021.01.12 16:14:30 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:14:30 INFO  time: compiled root in 0.7s
+2021.01.12 16:14:34 INFO  compiling root (1 scala source)
+2021.01.12 16:14:34 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:14:34 INFO  time: compiled root in 0.74s
+2021.01.12 16:15:19 INFO  compiling root (1 scala source)
+2021.01.12 16:15:19 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:15:19 INFO  time: compiled root in 0.7s
+2021.01.12 16:16:20 INFO  compiling root (1 scala source)
+2021.01.12 16:16:20 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 16:16:20 INFO  time: compiled root in 0.72s
+2021.01.12 16:41:07 INFO  shutting down Metals
+2021.01.12 16:41:08 INFO  Shut down connection with build server.
+2021.01.12 16:41:08 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.12 16:50:52 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.12 16:50:53 INFO  time: initialize in 0.31s
+2021.01.12 16:50:54 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4926545238869682140/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.12 16:50:54 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala
+2021.01.12 16:50:54 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2021.01.12 16:50:55 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/cjsosh/revproject0/.bloop'...
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/cjsosh/revproject0/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4926545238869682140/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4926545238869682140/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.12 16:50:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.12 16:50:57 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8943564541708945611/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8943564541708945611/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8943564541708945611/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.12 16:50:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.12 16:50:58 INFO  time: connected to build server in 3.83s
+2021.01.12 16:50:58 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.12 16:50:58 INFO  time: imported build in 0.11s
+2021.01.12 16:50:58 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.12 16:50:58 INFO  time: indexed workspace in 0.92s
+2021.01.12 16:52:54 INFO  compiling root (1 scala source)
+2021.01.12 16:52:55 INFO  time: compiled root in 1.76s
+Jan 12, 2021 4:54:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 340
+2021.01.12 16:54:43 INFO  compiling root (1 scala source)
+2021.01.12 16:54:43 INFO  time: compiled root in 0.48s
+Jan 12, 2021 4:54:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 400
+Jan 12, 2021 4:54:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 405
+Jan 12, 2021 4:54:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 402
+2021.01.12 16:54:54 INFO  compiling root (1 scala source)
+2021.01.12 16:54:55 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.12 16:54:55 INFO  time: compiled root in 1.06s
+Jan 12, 2021 4:55:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 494
+Jan 12, 2021 4:55:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 509
+2021.01.12 16:55:13 INFO  compiling root (1 scala source)
+2021.01.12 16:55:13 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.12 16:55:13 INFO  time: compiled root in 0.7s
+Jan 12, 2021 4:56:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 651
+2021.01.12 16:56:37 INFO  compiling root (1 scala source)
+2021.01.12 16:56:37 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.12 16:56:37 INFO  time: compiled root in 0.6s
+Jan 12, 2021 4:57:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+2021.01.12 16:58:44 INFO  compiling root (1 scala source)
+2021.01.12 16:58:44 INFO  time: compiled root in 0.46s
+2021.01.12 16:58:55 INFO  compiling root (1 scala source)
+2021.01.12 16:58:55 INFO  time: compiled root in 0.38s
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:49 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:53 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:47:47: stale bloop error: type mismatch;
+ found   : scala.collection.mutable.ArrayBuffer[String]
+ required: String
+      val wordString = FileUtil.getFileString(words)
+                                              ^^^^^
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:48:5: stale bloop error: type mismatch;
+ found   : Unit
+ required: scala.collection.mutable.ArrayBuffer[String]
+    }
+    ^
+2021.01.12 16:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala:46:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       val wordString = FileUtil.getFileString(words)
+>     }
+2021.01.12 16:59:57 INFO  compiling root (1 scala source)
+2021.01.12 16:59:57 INFO  time: compiled root in 0.39s
+2021.01.12 17:00:35 INFO  compiling root (1 scala source)
+2021.01.12 17:00:35 INFO  time: compiled root in 0.33s
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala, 1375, 1375, 1396)
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala, 1375, 1375, 1389)
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala, 1375, 1375, 1390)
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala in scala.collection.mutable.ArrayBuffer[String]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala, 1375, 1375, 1394)
+2021.01.12 17:01:00 INFO  compiling root (1 scala source)
+2021.01.12 17:01:00 INFO  time: compiled root in 0.22s
+2021.01.12 17:01:06 INFO  compiling root (1 scala source)
+2021.01.12 17:01:06 INFO  time: compiled root in 0.16s
+2021.01.12 17:01:26 INFO  compiling root (1 scala source)
+2021.01.12 17:01:26 INFO  time: compiled root in 66ms
+2021.01.12 17:01:47 INFO  compiling root (1 scala source)
+2021.01.12 17:01:47 INFO  time: compiled root in 0.18s
+2021.01.12 17:02:05 INFO  compiling root (1 scala source)
+2021.01.12 17:02:05 INFO  time: compiled root in 0.15s
+2021.01.12 17:02:09 INFO  compiling root (1 scala source)
+2021.01.12 17:02:09 INFO  time: compiled root in 0.17s
+2021.01.12 17:02:22 INFO  compiling root (1 scala source)
+2021.01.12 17:02:22 INFO  time: compiled root in 0.17s
+2021.01.12 17:02:34 INFO  compiling root (1 scala source)
+2021.01.12 17:02:34 INFO  time: compiled root in 0.14s
+2021.01.12 17:03:07 INFO  compiling root (1 scala source)
+2021.01.12 17:03:07 INFO  time: compiled root in 0.14s
+2021.01.12 17:03:13 INFO  compiling root (1 scala source)
+2021.01.12 17:03:14 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:03:14 INFO  time: compiled root in 1.2s
+2021.01.12 17:03:37 INFO  compiling root (1 scala source)
+2021.01.12 17:03:37 INFO  time: compiled root in 0.3s
+2021.01.12 17:03:48 INFO  compiling root (1 scala source)
+2021.01.12 17:03:48 INFO  time: compiled root in 0.28s
+2021.01.12 17:03:51 INFO  compiling root (1 scala source)
+2021.01.12 17:03:51 INFO  time: compiled root in 0.4s
+2021.01.12 17:03:57 INFO  compiling root (1 scala source)
+2021.01.12 17:03:59 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:03:59 INFO  time: compiled root in 2.08s
+2021.01.12 17:05:56 INFO  compiling root (1 scala source)
+2021.01.12 17:05:56 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.12 17:05:56 INFO  time: compiled root in 0.65s
+2021.01.12 17:05:56 INFO  compiling root (1 scala source)
+2021.01.12 17:05:57 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:05:57 INFO  time: compiled root in 0.5s
+Jan 12, 2021 5:06:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1955
+2021.01.12 17:06:07 INFO  compiling root (1 scala source)
+2021.01.12 17:06:07 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.12 17:06:07 INFO  time: compiled root in 0.44s
+2021.01.12 17:06:18 INFO  compiling root (1 scala source)
+2021.01.12 17:06:18 INFO  time: compiled root in 0.13s
+2021.01.12 17:07:12 INFO  compiling root (1 scala source)
+2021.01.12 17:07:12 INFO  time: compiled root in 0.14s
+Jan 12, 2021 5:09:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2077
+Jan 12, 2021 5:11:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2096
+2021.01.12 17:11:36 INFO  compiling root (1 scala source)
+2021.01.12 17:11:36 INFO  time: compiled root in 0.14s
+Jan 12, 2021 5:16:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2188
+2021.01.12 17:16:41 INFO  compiling root (1 scala source)
+2021.01.12 17:16:41 INFO  time: compiled root in 0.13s
+2021.01.12 17:17:06 INFO  compiling root (1 scala source)
+2021.01.12 17:17:06 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:17:06 INFO  time: compiled root in 0.82s
+2021.01.12 17:18:26 INFO  compiling root (1 scala source)
+2021.01.12 17:18:26 INFO  time: compiled root in 76ms
+2021.01.12 17:18:31 INFO  compiling root (1 scala source)
+2021.01.12 17:18:31 INFO  time: compiled root in 0.43s
+2021.01.12 17:18:31 INFO  compiling root (1 scala source)
+2021.01.12 17:18:31 INFO  time: compiled root in 85ms
+Jan 12, 2021 5:18:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+
+2021.01.12 17:19:45 INFO  compiling root (1 scala source)
+2021.01.12 17:19:45 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:19:45 INFO  time: compiled root in 0.44s
+2021.01.12 17:19:45 INFO  compiling root (1 scala source)
+2021.01.12 17:19:45 INFO  time: compiled root in 82ms
+Jan 12, 2021 5:19:52 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:19:52 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:19:53 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:19:53 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:19:53 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:19:53 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021.01.12 17:19:53 INFO  compiling root (1 scala source)
+2021.01.12 17:19:53 INFO  time: compiled root in 75ms
+2021.01.12 17:19:55 INFO  compiling root (1 scala source)
+2021.01.12 17:19:55 INFO  time: compiled root in 71ms
+2021.01.12 17:20:11 INFO  compiling root (1 scala source)
+2021.01.12 17:20:11 INFO  time: compiled root in 76ms
+2021.01.12 17:20:16 INFO  compiling root (1 scala source)
+2021.01.12 17:20:16 INFO  time: compiled root in 70ms
+2021.01.12 17:20:20 INFO  compiling root (1 scala source)
+2021.01.12 17:20:20 INFO  time: compiled root in 59ms
+2021.01.12 17:20:27 INFO  compiling root (1 scala source)
+2021.01.12 17:20:27 INFO  time: compiled root in 60ms
+2021.01.12 17:21:15 INFO  compiling root (1 scala source)
+2021.01.12 17:21:15 INFO  time: compiled root in 62ms
+2021.01.12 17:21:18 INFO  compiling root (1 scala source)
+2021.01.12 17:21:18 INFO  time: compiled root in 57ms
+2021.01.12 17:21:34 INFO  compiling root (1 scala source)
+2021.01.12 17:21:34 INFO  time: compiled root in 72ms
+2021.01.12 17:21:43 INFO  compiling root (1 scala source)
+2021.01.12 17:21:43 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.12 17:21:43 INFO  time: compiled root in 0.42s
+2021.01.12 17:21:43 INFO  compiling root (1 scala source)
+2021.01.12 17:21:43 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:21:43 INFO  time: compiled root in 0.43s
+2021.01.12 17:22:30 INFO  compiling root (1 scala source)
+2021.01.12 17:22:30 INFO  time: compiled root in 57ms
+2021.01.12 17:22:34 INFO  compiling root (1 scala source)
+2021.01.12 17:22:34 INFO  time: compiled root in 45ms
+2021.01.12 17:22:37 INFO  compiling root (1 scala source)
+2021.01.12 17:22:37 INFO  time: compiled root in 43ms
+2021.01.12 17:22:56 INFO  compiling root (1 scala source)
+2021.01.12 17:22:56 INFO  time: compiled root in 46ms
+2021.01.12 17:23:16 INFO  compiling root (1 scala source)
+2021.01.12 17:23:16 INFO  time: compiled root in 47ms
+2021.01.12 17:23:16 INFO  compiling root (1 scala source)
+2021.01.12 17:23:16 INFO  time: compiled root in 13ms
+Jan 12, 2021 5:23:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2825
+2021.01.12 17:23:16 INFO  compiling root (1 scala source)
+2021.01.12 17:23:16 INFO  time: compiled root in 13ms
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2021.01.12 17:23:27 INFO  compiling root (1 scala source)
+2021.01.12 17:23:27 INFO  time: compiled root in 82ms
+2021.01.12 17:23:45 INFO  compiling root (1 scala source)
+2021.01.12 17:23:45 INFO  time: compiled root in 69ms
+Jan 12, 2021 5:23:48 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:23:49 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:23:49 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:23:49 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021.01.12 17:23:50 INFO  compiling root (1 scala source)
+2021.01.12 17:23:50 INFO  time: compiled root in 59ms
+Jan 12, 2021 5:23:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2963
+Jan 12, 2021 5:23:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2965
+2021.01.12 17:24:05 INFO  compiling root (1 scala source)
+2021.01.12 17:24:05 INFO  time: compiled root in 60ms
+2021.01.12 17:24:15 INFO  compiling root (1 scala source)
+2021.01.12 17:24:15 INFO  time: compiled root in 61ms
+Jan 12, 2021 5:24:32 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:24:32 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:24:32 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:24:32 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:24:33 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:24:33 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 12, 2021 5:24:33 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:500)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021.01.12 17:24:35 INFO  compiling root (1 scala source)
+2021.01.12 17:24:35 INFO  time: compiled root in 36ms
+2021.01.12 17:24:39 INFO  compiling root (1 scala source)
+2021.01.12 17:24:39 INFO  time: compiled root in 61ms
+2021.01.12 17:24:43 INFO  compiling root (1 scala source)
+2021.01.12 17:24:43 INFO  time: compiled root in 53ms
+2021.01.12 17:24:46 INFO  compiling root (1 scala source)
+2021.01.12 17:24:46 INFO  time: compiled root in 61ms
+2021.01.12 17:24:50 INFO  compiling root (1 scala source)
+2021.01.12 17:24:50 INFO  time: compiled root in 58ms
+2021.01.12 17:24:50 INFO  compiling root (1 scala source)
+2021.01.12 17:24:50 INFO  time: compiled root in 25ms
+2021.01.12 17:24:52 INFO  compiling root (1 scala source)
+2021.01.12 17:24:52 INFO  time: compiled root in 64ms
+2021.01.12 17:25:04 INFO  compiling root (1 scala source)
+2021.01.12 17:25:04 INFO  time: compiled root in 58ms
+Jan 12, 2021 5:25:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3194
+2021.01.12 17:25:10 INFO  compiling root (1 scala source)
+2021.01.12 17:25:10 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.12 17:25:10 INFO  time: compiled root in 0.43s
+2021.01.12 17:25:15 INFO  compiling root (1 scala source)
+2021.01.12 17:25:15 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details
+2021.01.12 17:25:15 INFO  time: compiled root in 0.42s
+Jan 12, 2021 5:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3241
+Jan 12, 2021 5:30:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3390
+Jan 12, 2021 5:30:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3411
+2021.01.12 17:31:00 INFO  compiling root (1 scala source)
+2021.01.12 17:31:00 INFO  time: compiled root in 55ms
+2021.01.12 17:31:03 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:33:25: stale bloop error: not found: value words
+    val file = new File(words.csv)
+                        ^^^^^
+2021.01.12 17:31:03 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:33:25: stale bloop error: not found: value words
+    val file = new File(words.csv)
+                        ^^^^^
+2021.01.12 17:31:06 INFO  compiling root (1 scala source)
+2021.01.12 17:31:06 WARN  1 deprecation (since 2.13.0)
+2021.01.12 17:31:06 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:31:06 WARN  2 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:31:06 INFO  time: compiled root in 0.51s
+2021.01.12 17:31:44 INFO  compiling root (1 scala source)
+2021.01.12 17:31:44 WARN  1 deprecation (since 2.13.0)
+2021.01.12 17:31:44 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:31:44 WARN  2 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:31:44 INFO  time: compiled root in 0.46s
+2021.01.12 17:32:03 INFO  compiling root (1 scala source)
+2021.01.12 17:32:03 WARN  1 deprecation (since 2.13.0)
+2021.01.12 17:32:03 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:32:03 WARN  2 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:32:03 INFO  time: compiled root in 0.62s
+2021.01.12 17:32:21 INFO  compiling root (1 scala source)
+2021.01.12 17:32:21 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:32:21 INFO  time: compiled root in 0.72s
+2021.01.12 17:32:47 INFO  compiling root (1 scala source)
+2021.01.12 17:32:47 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:32:47 INFO  time: compiled root in 0.73s
+Jan 12, 2021 5:39:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4035
+2021.01.12 17:41:49 INFO  compiling root (1 scala source)
+2021.01.12 17:41:49 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:41:49 INFO  time: compiled root in 0.67s
+2021.01.12 17:42:47 INFO  compiling root (1 scala source)
+2021.01.12 17:42:47 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 17:42:47 INFO  time: compiled root in 0.72s
+2021.01.12 17:43:04 INFO  compiling root (1 scala source)
+2021.01.12 17:43:04 WARN  1 deprecation (since 2.13.0)
+2021.01.12 17:43:04 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:43:04 WARN  2 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:43:04 INFO  time: compiled root in 0.45s
+Jan 12, 2021 5:44:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4192
+Jan 12, 2021 5:44:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4312
+2021.01.12 17:44:37 INFO  compiling root (1 scala source)
+2021.01.12 17:44:37 INFO  time: compiled root in 62ms
+2021.01.12 17:44:44 INFO  compiling root (1 scala source)
+2021.01.12 17:44:44 INFO  time: compiled root in 58ms
+Jan 12, 2021 5:45:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4402
+2021.01.12 17:45:10 INFO  compiling root (1 scala source)
+2021.01.12 17:45:10 INFO  time: compiled root in 61ms
+2021.01.12 17:46:57 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:37:43: stale bloop error: multiple constructors for FileWriter with alternatives:
+  (x$1: java.io.FileDescriptor)java.io.FileWriter <and>
+  (x$1: java.io.File)java.io.FileWriter <and>
+  (x$1: String)java.io.FileWriter
+ cannot be invoked with (scala.io.BufferedSource)
+      val writer = new BufferedWriter(new FileWriter(sourceFile))
+                                          ^^^^^^^^^^
+2021.01.12 17:46:57 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:37:43: stale bloop error: multiple constructors for FileWriter with alternatives:
+  (x$1: java.io.FileDescriptor)java.io.FileWriter <and>
+  (x$1: java.io.File)java.io.FileWriter <and>
+  (x$1: String)java.io.FileWriter
+ cannot be invoked with (scala.io.BufferedSource)
+      val writer = new BufferedWriter(new FileWriter(sourceFile))
+                                          ^^^^^^^^^^
+2021.01.12 17:46:57 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:37:43: stale bloop error: multiple constructors for FileWriter with alternatives:
+  (x$1: java.io.FileDescriptor)java.io.FileWriter <and>
+  (x$1: java.io.File)java.io.FileWriter <and>
+  (x$1: String)java.io.FileWriter
+ cannot be invoked with (scala.io.BufferedSource)
+      val writer = new BufferedWriter(new FileWriter(sourceFile))
+                                          ^^^^^^^^^^
+2021.01.12 17:46:57 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:37:43: stale bloop error: multiple constructors for FileWriter with alternatives:
+  (x$1: java.io.FileDescriptor)java.io.FileWriter <and>
+  (x$1: java.io.File)java.io.FileWriter <and>
+  (x$1: String)java.io.FileWriter
+ cannot be invoked with (scala.io.BufferedSource)
+      val writer = new BufferedWriter(new FileWriter(sourceFile))
+                                          ^^^^^^^^^^
+2021.01.12 17:46:57 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:37:43: stale bloop error: multiple constructors for FileWriter with alternatives:
+  (x$1: java.io.FileDescriptor)java.io.FileWriter <and>
+  (x$1: java.io.File)java.io.FileWriter <and>
+  (x$1: String)java.io.FileWriter
+ cannot be invoked with (scala.io.BufferedSource)
+      val writer = new BufferedWriter(new FileWriter(sourceFile))
+                                          ^^^^^^^^^^
+2021.01.12 17:46:58 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:37:43: stale bloop error: multiple constructors for FileWriter with alternatives:
+  (x$1: java.io.FileDescriptor)java.io.FileWriter <and>
+  (x$1: java.io.File)java.io.FileWriter <and>
+  (x$1: String)java.io.FileWriter
+ cannot be invoked with (scala.io.BufferedSource)
+      val writer = new BufferedWriter(new FileWriter(sourceFile))
+                                          ^^^^^^^^^^
+2021.01.12 17:46:58 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:37:43: stale bloop error: multiple constructors for FileWriter with alternatives:
+  (x$1: java.io.FileDescriptor)java.io.FileWriter <and>
+  (x$1: java.io.File)java.io.FileWriter <and>
+  (x$1: String)java.io.FileWriter
+ cannot be invoked with (scala.io.BufferedSource)
+      val writer = new BufferedWriter(new FileWriter(sourceFile))
+                                          ^^^^^^^^^^
+2021.01.12 17:46:57 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala:37:43: stale bloop error: multiple constructors for FileWriter with alternatives:
+  (x$1: java.io.FileDescriptor)java.io.FileWriter <and>
+  (x$1: java.io.File)java.io.FileWriter <and>
+  (x$1: String)java.io.FileWriter
+ cannot be invoked with (scala.io.BufferedSource)
+      val writer = new BufferedWriter(new FileWriter(sourceFile))
+                                          ^^^^^^^^^^
+2021.01.12 17:46:59 INFO  compiling root (1 scala source)
+2021.01.12 17:46:59 INFO  time: compiled root in 41ms
+2021.01.12 17:47:03 INFO  compiling root (1 scala source)
+2021.01.12 17:47:03 INFO  time: compiled root in 60ms
+2021.01.12 17:47:08 INFO  compiling root (1 scala source)
+2021.01.12 17:47:08 INFO  time: compiled root in 54ms
+2021.01.12 17:47:21 INFO  compiling root (1 scala source)
+2021.01.12 17:47:21 WARN  1 deprecation (since 2.13.0)
+2021.01.12 17:47:21 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:47:21 WARN  2 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:47:21 INFO  time: compiled root in 0.43s
+2021.01.12 17:48:26 INFO  compiling root (1 scala source)
+2021.01.12 17:48:26 INFO  time: compiled root in 0.12s
+2021.01.12 17:49:40 INFO  compiling revproject0-build (1 scala source)
+2021.01.12 17:49:42 INFO  time: compiled revproject0-build in 2.66s
+2021.01.12 17:51:23 INFO  compiling root (1 scala source)
+2021.01.12 17:51:23 INFO  time: compiled root in 52ms
+2021.01.12 17:52:15 INFO  compiling root (1 scala source)
+2021.01.12 17:52:15 WARN  1 deprecation (since 2.13.0)
+2021.01.12 17:52:15 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:52:15 WARN  2 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:52:15 INFO  time: compiled root in 0.47s
+2021.01.12 17:52:41 INFO  compiling root (1 scala source)
+2021.01.12 17:52:41 WARN  1 deprecation (since 2.13.0)
+2021.01.12 17:52:41 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:52:41 WARN  2 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:52:41 INFO  time: compiled root in 0.44s
+Jan 12, 2021 5:53:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5037
+2021.01.12 17:54:01 INFO  compiling root (1 scala source)
+2021.01.12 17:54:01 WARN  1 deprecation (since 2.13.0)
+2021.01.12 17:54:01 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:54:01 WARN  2 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:54:01 INFO  time: compiled root in 0.44s
+Jan 12, 2021 5:55:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5129
+2021.01.12 17:59:05 INFO  compiling root (1 scala source)
+2021.01.12 17:59:05 INFO  time: compiled root in 67ms
+2021.01.12 17:59:14 INFO  compiling root (1 scala source)
+2021.01.12 17:59:14 WARN  2 deprecations (since 2.13.0)
+2021.01.12 17:59:14 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:59:14 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:59:14 INFO  time: compiled root in 0.47s
+2021.01.12 17:59:33 INFO  compiling root (1 scala source)
+2021.01.12 17:59:33 WARN  2 deprecations (since 2.13.0)
+2021.01.12 17:59:33 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:59:33 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:59:33 INFO  time: compiled root in 0.49s
+2021.01.12 17:59:53 INFO  compiling root (1 scala source)
+2021.01.12 17:59:53 WARN  2 deprecations (since 2.13.0)
+2021.01.12 17:59:53 WARN  1 deprecation (since 2.13.3)
+2021.01.12 17:59:53 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 17:59:53 INFO  time: compiled root in 0.86s
+Jan 12, 2021 6:00:01 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2021.01.12 18:01:42 INFO  compiling root (1 scala source)
+2021.01.12 18:01:42 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:01:42 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:01:42 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:01:42 INFO  time: compiled root in 0.54s
+2021.01.12 18:02:12 INFO  compiling root (1 scala source)
+2021.01.12 18:02:12 INFO  time: compiled root in 68ms
+Jan 12, 2021 6:02:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5792
+Jan 12, 2021 6:02:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5794
+2021.01.12 18:02:44 INFO  compiling root (1 scala source)
+2021.01.12 18:02:44 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:02:44 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:02:44 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:02:44 INFO  time: compiled root in 0.52s
+2021.01.12 18:03:00 INFO  compiling root (1 scala source)
+2021.01.12 18:03:00 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:03:00 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:03:00 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:03:00 INFO  time: compiled root in 0.52s
+2021.01.12 18:04:16 INFO  compiling root (1 scala source)
+2021.01.12 18:04:16 INFO  time: compiled root in 72ms
+2021.01.12 18:05:04 INFO  compiling root (1 scala source)
+2021.01.12 18:05:04 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:05:04 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:05:04 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:05:04 INFO  time: compiled root in 0.48s
+2021.01.12 18:06:48 INFO  compiling root (1 scala source)
+2021.01.12 18:06:48 INFO  time: compiled root in 70ms
+2021.01.12 18:06:52 INFO  compiling root (1 scala source)
+2021.01.12 18:06:52 INFO  time: compiled root in 77ms
+2021.01.12 18:09:52 INFO  compiling root (1 scala source)
+2021.01.12 18:09:52 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 18:09:52 INFO  time: compiled root in 0.87s
+2021.01.12 18:09:58 INFO  compiling root (1 scala source)
+2021.01.12 18:09:58 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 18:09:58 INFO  time: compiled root in 0.74s
+Jan 12, 2021 6:10:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6129
+2021.01.12 18:10:17 INFO  compiling root (1 scala source)
+2021.01.12 18:10:17 INFO  time: compiled root in 66ms
+Jan 12, 2021 6:11:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6190
+Jan 12, 2021 6:11:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6189
+2021.01.12 18:11:30 INFO  compiling root (1 scala source)
+2021.01.12 18:11:30 INFO  time: compiled root in 83ms
+2021.01.12 18:11:35 INFO  compiling root (1 scala source)
+2021.01.12 18:11:35 INFO  time: compiled root in 63ms
+2021.01.12 18:11:47 INFO  compiling root (1 scala source)
+2021.01.12 18:11:47 INFO  time: compiled root in 0.17s
+2021.01.12 18:12:06 INFO  compiling root (1 scala source)
+2021.01.12 18:12:06 INFO  time: compiled root in 48ms
+2021.01.12 18:12:20 INFO  compiling root (1 scala source)
+2021.01.12 18:12:20 INFO  time: compiled root in 61ms
+2021.01.12 18:12:32 INFO  compiling root (1 scala source)
+2021.01.12 18:12:32 INFO  time: compiled root in 65ms
+2021.01.12 18:12:37 INFO  compiling root (1 scala source)
+2021.01.12 18:12:37 INFO  time: compiled root in 45ms
+2021.01.12 18:13:02 INFO  compiling root (1 scala source)
+2021.01.12 18:13:02 INFO  time: compiled root in 48ms
+2021.01.12 18:13:07 INFO  compiling root (1 scala source)
+2021.01.12 18:13:07 INFO  time: compiled root in 54ms
+2021.01.12 18:13:17 INFO  compiling root (1 scala source)
+2021.01.12 18:13:17 INFO  time: compiled root in 56ms
+2021.01.12 18:13:24 INFO  compiling root (1 scala source)
+2021.01.12 18:13:24 INFO  time: compiled root in 45ms
+2021.01.12 18:13:31 INFO  compiling root (1 scala source)
+2021.01.12 18:13:31 INFO  time: compiled root in 42ms
+2021.01.12 18:13:54 INFO  compiling root (1 scala source)
+2021.01.12 18:13:54 INFO  time: compiled root in 43ms
+2021.01.12 18:14:12 INFO  compiling root (1 scala source)
+2021.01.12 18:14:12 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:14:12 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:14:12 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:14:12 INFO  time: compiled root in 0.48s
+2021.01.12 18:14:28 INFO  compiling root (1 scala source)
+2021.01.12 18:14:28 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:14:28 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:14:28 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:14:28 INFO  time: compiled root in 0.47s
+2021.01.12 18:14:45 INFO  compiling root (1 scala source)
+2021.01.12 18:14:45 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:14:45 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:14:45 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:14:45 INFO  time: compiled root in 0.51s
+Jan 12, 2021 6:15:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6584
+2021.01.12 18:15:42 INFO  compiling root (1 scala source)
+2021.01.12 18:15:42 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:15:42 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:15:42 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:15:42 INFO  time: compiled root in 0.46s
+2021.01.12 18:17:58 INFO  compiling root (1 scala source)
+2021.01.12 18:17:58 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:17:58 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:17:58 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:17:58 INFO  time: compiled root in 0.47s
+2021.01.12 18:18:05 INFO  compiling root (1 scala source)
+2021.01.12 18:18:05 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:18:05 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:18:05 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:18:05 INFO  time: compiled root in 0.47s
+2021.01.12 18:19:12 INFO  compiling root (1 scala source)
+2021.01.12 18:19:12 INFO  time: compiled root in 68ms
+2021.01.12 18:21:17 INFO  compiling root (1 scala source)
+2021.01.12 18:21:17 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:21:17 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:21:17 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:21:17 INFO  time: compiled root in 0.53s
+Jan 12, 2021 6:21:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6839
+2021.01.12 18:21:28 INFO  compiling root (1 scala source)
+2021.01.12 18:21:28 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:21:28 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:21:28 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:21:28 INFO  time: compiled root in 0.51s
+Jan 12, 2021 6:21:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6871
+2021.01.12 18:21:55 INFO  compiling root (1 scala source)
+2021.01.12 18:21:55 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:21:55 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:21:55 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:21:55 INFO  time: compiled root in 0.48s
+2021.01.12 18:22:35 INFO  compiling root (1 scala source)
+2021.01.12 18:22:35 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:22:35 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:22:35 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:22:35 INFO  time: compiled root in 0.47s
+2021.01.12 18:24:48 INFO  compiling root (1 scala source)
+2021.01.12 18:24:48 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 18:24:48 INFO  time: compiled root in 0.7s
+Jan 12, 2021 6:24:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7043
+2021.01.12 18:25:04 INFO  compiling root (1 scala source)
+2021.01.12 18:25:04 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.12 18:25:04 INFO  time: compiled root in 0.66s
+Jan 12, 2021 6:25:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7121
+2021.01.12 18:25:12 INFO  compiling root (1 scala source)
+2021.01.12 18:25:12 WARN  2 deprecations (since 2.13.0)
+2021.01.12 18:25:12 WARN  1 deprecation (since 2.13.3)
+2021.01.12 18:25:12 WARN  3 deprecations in total; re-run with -deprecation for details
+2021.01.12 18:25:12 INFO  time: compiled root in 0.82s
