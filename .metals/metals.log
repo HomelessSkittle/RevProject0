@@ -4261,3 +4261,1618 @@ WARNING: Unmatched cancel notification for request id 7121
 2021.01.12 18:25:12 WARN  1 deprecation (since 2.13.3)
 2021.01.12 18:25:12 WARN  3 deprecations in total; re-run with -deprecation for details
 2021.01.12 18:25:12 INFO  time: compiled root in 0.82s
+2021.01.12 18:26:38 INFO  shutting down Metals
+2021.01.12 18:26:38 INFO  Shut down connection with build server.
+2021.01.12 18:26:38 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.13 16:46:28 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.13 16:46:29 INFO  time: initialize in 0.36s
+2021.01.13 16:46:30 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+2021.01.13 16:46:30 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/FileUtil.scala
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4536399050896077166/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.13 16:46:30 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala
+2021.01.13 16:46:30 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2021.01.13 16:46:32 INFO  no build target: using presentation compiler with only scala-library
+Jan 13, 2021 4:46:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/cjsosh/revproject0/.bloop'...
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/cjsosh/revproject0/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4536399050896077166/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4536399050896077166/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.13 16:46:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+Jan 13, 2021 4:46:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2021.01.13 16:46:36 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher196034984826779701/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher196034984826779701/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher196034984826779701/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.13 16:46:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.13 16:46:36 INFO  time: connected to build server in 6.19s
+2021.01.13 16:46:36 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.13 16:46:36 INFO  time: imported build in 0.21s
+2021.01.13 16:46:39 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.13 16:46:40 INFO  time: indexed workspace in 4.03s
+2021.01.13 16:47:19 INFO  compiling root (1 scala source)
+2021.01.13 16:47:23 INFO  shutting down Metals
+2021.01.13 16:47:23 INFO  Shut down connection with build server.
+2021.01.13 16:47:23 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.14 12:36:08 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.14 12:36:08 INFO  time: initialize in 0.33s
+2021.01.14 12:36:09 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher327599758862658003/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.14 12:36:09 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala
+2021.01.14 12:36:09 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2021.01.14 12:36:12 INFO  no build target: using presentation compiler with only scala-library
+2021.01.14 12:36:12 INFO  shutting down Metals
+Waiting for the bsp connection to come up...
+2021.01.15 10:10:43 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.15 10:10:44 INFO  time: initialize in 0.32s
+2021.01.15 10:10:44 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2678119245677203507/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.15 10:10:44 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala
+2021.01.15 10:10:45 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2021.01.15 10:10:46 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/cjsosh/revproject0/.bloop'...
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/cjsosh/revproject0/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2678119245677203507/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2678119245677203507/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.15 10:10:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.15 10:10:49 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4678832447954463711/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4678832447954463711/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4678832447954463711/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.15 10:10:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.15 10:10:50 INFO  time: connected to build server in 5.32s
+2021.01.15 10:10:50 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.15 10:10:50 INFO  time: imported build in 0.17s
+2021.01.15 10:10:51 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.15 10:10:51 INFO  time: indexed workspace in 2.01s
+2021.01.15 10:10:53 INFO  compiling root (1 scala source)
+2021.01.15 10:11:00 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.15 10:11:00 INFO  time: compiled root in 7s
+2021.01.15 13:09:53 INFO  shutting down Metals
+2021.01.15 13:09:53 INFO  Shut down connection with build server.
+2021.01.15 13:09:53 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.15 14:35:57 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.15 14:35:57 INFO  time: initialize in 0.34s
+2021.01.15 14:35:58 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3943255578639503499/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.15 14:35:58 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala
+2021.01.15 14:35:59 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2021.01.15 14:36:00 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Jan 15, 2021 2:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jan 15, 2021 2:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Jan 15, 2021 2:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Jan 15, 2021 2:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jan 15, 2021 2:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jan 15, 2021 2:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jan 15, 2021 2:36:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/cjsosh/revproject0/.bloop'...
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/cjsosh/revproject0/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3943255578639503499/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3943255578639503499/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.15 14:36:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.15 14:36:04 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3004329901512401509/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3004329901512401509/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3004329901512401509/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.15 14:36:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.15 14:36:04 INFO  time: connected to build server in 5.75s
+2021.01.15 14:36:04 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.15 14:36:04 INFO  time: imported build in 0.18s
+2021.01.15 14:36:07 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.15 14:36:09 INFO  time: indexed workspace in 5.1s
+2021.01.15 14:36:12 INFO  compiling root (1 scala source)
+2021.01.15 14:36:17 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.15 14:36:17 INFO  time: compiled root in 4.78s
+2021.01.15 16:22:54 INFO  shutting down Metals
+2021.01.15 16:22:54 INFO  Shut down connection with build server.
+2021.01.15 16:22:54 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.15 17:42:36 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.15 17:42:36 INFO  time: initialize in 0.32s
+2021.01.15 17:42:37 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7080330953655338026/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.15 17:42:37 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala
+2021.01.15 17:42:37 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2021.01.15 17:42:39 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/cjsosh/revproject0/.bloop'...
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/cjsosh/revproject0/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7080330953655338026/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7080330953655338026/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.15 17:42:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.15 17:42:43 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5115835211093869510/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5115835211093869510/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5115835211093869510/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.15 17:42:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.15 17:42:43 INFO  time: connected to build server in 5.61s
+2021.01.15 17:42:43 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.15 17:42:43 INFO  time: imported build in 0.18s
+2021.01.15 17:42:45 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.15 17:42:45 INFO  time: indexed workspace in 2.31s
+Jan 15, 2021 5:49:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Jan 15, 2021 5:50:05 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+Jan 15, 2021 5:52:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 361
+2021.01.15 17:53:13 INFO  shutting down Metals
+2021.01.15 17:53:13 INFO  Shut down connection with build server.
+2021.01.15 17:53:13 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.18 10:08:00 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.18 10:08:00 INFO  time: initialize in 0.34s
+2021.01.18 10:08:01 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7427978016860113461/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.18 10:08:01 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/CLI.scala
+2021.01.18 10:08:01 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+2021.01.18 10:08:03 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-15-209c2a5c...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/cjsosh/revproject0/.bloop'...
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.4.
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar
+[0m[32m[D][0m   => /home/cjsosh/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/cjsosh/revproject0/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7427978016860113461/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7427978016860113461/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.18 10:08:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.18 10:08:07 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8860081258477029973/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8860081258477029973/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8860081258477029973/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.18 10:08:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.18 10:08:07 INFO  time: connected to build server in 6.21s
+2021.01.18 10:08:07 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.18 10:08:07 INFO  time: imported build in 0.2s
+2021.01.18 10:08:10 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.18 10:08:10 INFO  time: indexed workspace in 3.09s
+Jan 18, 2021 10:10:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2021.01.18 10:16:50 INFO  compiling root (1 scala source)
+2021.01.18 10:16:53 INFO  time: compiled root in 3.62s
+Jan 18, 2021 10:17:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+Jan 18, 2021 10:18:03 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 18, 2021 10:18:03 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2021.01.18 10:19:06 INFO  compiling root (1 scala source)
+2021.01.18 10:19:06 INFO  time: compiled root in 0.35s
+Jan 18, 2021 10:19:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 215
+Jan 18, 2021 10:20:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 303
+Jan 18, 2021 10:20:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 361
+Jan 18, 2021 10:20:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 398
+Jan 18, 2021 10:20:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 468
+2021.01.18 10:22:41 INFO  compiling root (1 scala source)
+2021.01.18 10:22:43 INFO  time: compiled root in 1.43s
+Jan 18, 2021 10:24:11 AM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.OverrideCompletions$OverrideCompletion.<init>(OverrideCompletions.scala:46)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:478)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Jan 18, 2021 10:25:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1017
+Jan 18, 2021 10:25:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1018
+Jan 18, 2021 10:25:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1048
+Jan 18, 2021 10:25:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1076
+2021.01.18 10:25:52 INFO  compiling root (1 scala source)
+2021.01.18 10:25:52 INFO  time: compiled root in 0.12s
+2021.01.18 10:26:13 INFO  compiling root (1 scala source)
+2021.01.18 10:26:13 INFO  time: compiled root in 66ms
+2021.01.18 10:26:16 INFO  compiling root (1 scala source)
+2021.01.18 10:26:16 INFO  time: compiled root in 61ms
+2021.01.18 10:26:32 INFO  compiling root (1 scala source)
+2021.01.18 10:26:32 INFO  time: compiled root in 61ms
+2021.01.18 10:26:40 INFO  compiling root (1 scala source)
+2021.01.18 10:26:40 INFO  time: compiled root in 0.15s
+2021.01.18 10:26:48 INFO  compiling root (1 scala source)
+2021.01.18 10:26:48 INFO  time: compiled root in 0.1s
+2021.01.18 10:27:12 INFO  compiling root (1 scala source)
+2021.01.18 10:27:12 INFO  time: compiled root in 98ms
+Jan 18, 2021 10:27:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1461
+2021.01.18 10:27:24 INFO  compiling root (1 scala source)
+2021.01.18 10:27:24 INFO  time: compiled root in 98ms
+2021.01.18 10:27:39 INFO  compiling root (1 scala source)
+2021.01.18 10:27:39 INFO  time: compiled root in 98ms
+Jan 18, 2021 10:27:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1589
+2021.01.18 10:28:20 INFO  compiling root (1 scala source)
+2021.01.18 10:28:20 INFO  time: compiled root in 0.11s
+2021.01.18 10:28:44 INFO  compiling root (1 scala source)
+2021.01.18 10:28:44 INFO  time: compiled root in 0.1s
+2021.01.18 10:29:05 INFO  compiling root (1 scala source)
+2021.01.18 10:29:05 INFO  time: compiled root in 62ms
+2021.01.18 10:29:09 INFO  compiling root (1 scala source)
+2021.01.18 10:29:09 INFO  time: compiled root in 63ms
+2021.01.18 10:29:18 INFO  compiling root (1 scala source)
+2021.01.18 10:29:18 INFO  time: compiled root in 60ms
+2021.01.18 10:29:26 INFO  compiling root (2 scala sources)
+2021.01.18 10:29:26 INFO  time: compiled root in 91ms
+2021.01.18 10:29:28 INFO  compiling root (2 scala sources)
+2021.01.18 10:29:28 INFO  time: compiled root in 67ms
+2021.01.18 10:29:37 INFO  compiling root (1 scala source)
+2021.01.18 10:29:37 INFO  time: compiled root in 60ms
+2021.01.18 10:29:50 INFO  compiling root (1 scala source)
+2021.01.18 10:29:50 INFO  time: compiled root in 62ms
+Jan 18, 2021 10:32:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2252
+Jan 18, 2021 10:32:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2328
+2021.01.18 10:32:47 INFO  compiling root (1 scala source)
+2021.01.18 10:32:47 INFO  time: compiled root in 58ms
+2021.01.18 10:34:05 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:05 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:05 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:06 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:05 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:05 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:07 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:07 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:07 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:07 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:09 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:09 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+Jan 18, 2021 10:34:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2533
+2021.01.18 10:34:20 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:20 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:21 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:21 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:21 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:21 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+Jan 18, 2021 10:34:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2632
+2021.01.18 10:34:38 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:38 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:38 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:39 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:39 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:39 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:39 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:40 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:40 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:40 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:40 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:41 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:41 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:34:41 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:35:00 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:35:00 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:35:31 INFO  compiling root (1 scala source)
+2021.01.18 10:35:31 INFO  time: compiled root in 56ms
+2021.01.18 10:35:45 INFO  compiling root (1 scala source)
+2021.01.18 10:35:45 INFO  time: compiled root in 53ms
+2021.01.18 10:35:50 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:35:50 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:35:50 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:35:50 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+Jan 18, 2021 10:35:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2782
+Jan 18, 2021 10:36:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2910
+Jan 18, 2021 10:37:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2956
+Jan 18, 2021 10:38:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3434
+2021.01.18 10:39:06 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:06 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:08 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:08 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:08 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:08 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:09 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:09 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:10 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:10 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:19 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:19 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:24 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:24 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:24 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:24 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:24 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:25 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:26 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:26 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:27 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:27 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:30 INFO  compiling root (1 scala source)
+2021.01.18 10:39:30 INFO  time: compiled root in 55ms
+2021.01.18 10:39:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:48 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:50 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:50 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:50 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:50 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:51 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:39:52 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:00 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:00 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:07 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:07 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:07 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:07 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:09 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:09 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:11 INFO  compiling root (1 scala source)
+2021.01.18 10:40:11 INFO  time: compiled root in 60ms
+2021.01.18 10:40:19 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:19 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:19 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:19 INFO  /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala:3:22: stale bloop error: . expected
+import ConnectionUtil
+                     ^
+2021.01.18 10:40:49 INFO  compiling root (1 scala source)
+2021.01.18 10:40:49 INFO  time: compiled root in 52ms
+2021.01.18 10:41:05 INFO  compiling root (2 scala sources)
+2021.01.18 10:41:05 INFO  time: compiled root in 54ms
+2021.01.18 10:41:05 INFO  compiling root (2 scala sources)
+2021.01.18 10:41:05 INFO  time: compiled root in 34ms
+Jan 18, 2021 10:41:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3905
+2021.01.18 10:41:40 INFO  compiling root (2 scala sources)
+2021.01.18 10:41:40 INFO  time: compiled root in 53ms
+Jan 18, 2021 10:41:46 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 18, 2021 10:41:46 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:419)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:964)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:812)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2021.01.18 10:42:19 INFO  compiling root (2 scala sources)
+2021.01.18 10:42:19 INFO  time: compiled root in 53ms
+2021.01.18 10:49:42 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-qetKW4OeRm6v0g64Cb1IbQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 10:49:42 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-qetKW4OeRm6v0g64Cb1IbQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 10:49:42 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-qetKW4OeRm6v0g64Cb1IbQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 10:49:54 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-qetKW4OeRm6v0g64Cb1IbQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 10:49:54 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-qetKW4OeRm6v0g64Cb1IbQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 10:50:01 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-qetKW4OeRm6v0g64Cb1IbQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 10:50:05 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-qetKW4OeRm6v0g64Cb1IbQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 10:50:13 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-qetKW4OeRm6v0g64Cb1IbQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 10:53:13 INFO  compiling root (2 scala sources)
+2021.01.18 10:53:13 INFO  time: compiled root in 66ms
+2021.01.18 10:53:14 INFO  shutting down Metals
+2021.01.18 10:53:14 INFO  Shut down connection with build server.
+No more data in the server stdin, exiting...
+2021.01.18 10:53:14 No more data in the server stdin, exiting...INFO  
+Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.18 10:53:39 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.18 10:53:40 INFO  time: initialize in 0.31s
+2021.01.18 10:53:41 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher9214000426439974619/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.18 10:53:41 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher9214000426439974619/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher9214000426439974619/bsp.socket...
+2021.01.18 10:53:41 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.18 10:53:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.18 10:53:41 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1001660996203957547/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1001660996203957547/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1001660996203957547/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.18 10:53:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.18 10:53:41 INFO  time: connected to build server in 0.29s
+2021.01.18 10:53:41 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.18 10:53:42 INFO  no build target: using presentation compiler with only scala-library
+2021.01.18 10:53:42 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.18 10:53:42 INFO  time: indexed workspace in 1.28s
+2021.01.18 10:53:42 INFO  compiling root (2 scala sources)
+2021.01.18 10:53:42 INFO  time: compiled root in 0.49s
+2021.01.18 10:56:52 INFO  compiling root (2 scala sources)
+2021.01.18 10:56:52 INFO  time: compiled root in 66ms
+2021.01.18 10:57:42 INFO  compiling root (2 scala sources)
+2021.01.18 10:57:42 INFO  time: compiled root in 61ms
+2021.01.18 10:57:45 INFO  compiling root (2 scala sources)
+2021.01.18 10:57:45 INFO  time: compiled root in 53ms
+2021.01.18 10:57:50 INFO  compiling root (2 scala sources)
+2021.01.18 10:57:50 INFO  time: compiled root in 0.24s
+2021.01.18 11:01:28 INFO  compiling root (2 scala sources)
+2021.01.18 11:01:28 INFO  time: compiled root in 0.14s
+2021.01.18 11:01:38 INFO  compiling root (2 scala sources)
+2021.01.18 11:01:38 INFO  time: compiled root in 0.13s
+2021.01.18 11:01:39 INFO  compiling root (2 scala sources)
+2021.01.18 11:01:39 INFO  time: compiled root in 0.12s
+2021.01.18 11:01:42 INFO  compiling root (2 scala sources)
+2021.01.18 11:01:42 INFO  time: compiled root in 0.12s
+2021.01.18 11:02:15 INFO  compiling root (2 scala sources)
+2021.01.18 11:02:15 INFO  time: compiled root in 51ms
+2021.01.18 11:02:31 INFO  compiling root (2 scala sources)
+2021.01.18 11:02:31 INFO  time: compiled root in 55ms
+2021.01.18 11:02:39 INFO  compiling root (2 scala sources)
+2021.01.18 11:02:39 INFO  time: compiled root in 52ms
+Jan 18, 2021 11:02:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 340
+2021.01.18 11:02:48 INFO  compiling root (2 scala sources)
+2021.01.18 11:02:48 INFO  time: compiled root in 55ms
+2021.01.18 11:02:56 INFO  compiling root (2 scala sources)
+2021.01.18 11:02:56 INFO  time: compiled root in 0.11s
+Jan 18, 2021 11:08:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 406
+Jan 18, 2021 11:12:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 643
+2021.01.18 11:12:52 INFO  compiling root (2 scala sources)
+2021.01.18 11:12:52 INFO  time: compiled root in 0.13s
+2021.01.18 11:12:56 INFO  compiling root (2 scala sources)
+2021.01.18 11:12:56 INFO  time: compiled root in 98ms
+2021.01.18 11:13:09 INFO  compiling root (2 scala sources)
+2021.01.18 11:13:09 INFO  time: compiled root in 0.1s
+2021.01.18 11:13:13 INFO  compiling root (2 scala sources)
+2021.01.18 11:13:13 INFO  time: compiled root in 90ms
+Jan 18, 2021 11:30:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 790
+2021.01.18 11:30:48 INFO  compiling root (2 scala sources)
+2021.01.18 11:30:48 INFO  time: compiled root in 0.11s
+2021.01.18 11:31:15 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-MqP0XZWgSte0NHaPBTnYIQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 11:31:15 INFO  compiling root (2 scala sources)
+2021.01.18 11:31:15 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the build target root is being compiled. Wait until compilation is finished and try again.
+2021.01.18 11:31:15 INFO  time: compiled root in 0.1s
+2021.01.18 11:31:15 ERROR code navigation does not work for the file '/home/cjsosh/revproject0/src/main/scala/cliapp/ConnectionUtil.scala' because the SemanticDB file '/home/cjsosh/revproject0/.bloop/root/bloop-bsp-clients-classes/classes-Metals-MqP0XZWgSte0NHaPBTnYIQ==/META-INF/semanticdb/src/main/scala/cliapp/ConnectionUtil.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2021.01.18 11:31:39 INFO  compiling root (2 scala sources)
+2021.01.18 11:31:39 INFO  time: compiled root in 83ms
+2021.01.18 11:31:54 INFO  compiling root (2 scala sources)
+2021.01.18 11:31:54 INFO  time: compiled root in 96ms
+2021.01.18 11:31:54 INFO  compiling root (2 scala sources)
+2021.01.18 11:31:55 INFO  time: compiled root in 54ms
+2021.01.18 11:31:59 INFO  shutting down Metals
+2021.01.18 11:31:59 INFO  Shut down connection with build server.
+2021.01.18 11:31:59 INFO  Shut down connection with build server.
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+2021.01.18 11:32:21 INFO  Started: Metals version 0.9.8 in workspace '/home/cjsosh/revproject0' for client vscode.
+2021.01.18 11:32:21 INFO  time: initialize in 0.29s
+2021.01.18 11:32:22 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8022739234704529237/bsp.socket'...
+Waiting for the bsp connection to come up...
+2021.01.18 11:32:22 WARN  no build target for: /home/cjsosh/revproject0/src/main/scala/cliapp/WordDao.scala
+2021.01.18 11:32:22 WARN  no build target for: /home/cjsosh/revproject0/build.sbt
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8022739234704529237/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8022739234704529237/bsp.socket...
+2021.01.18 11:32:22 INFO  skipping build import with status 'Installed'
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.18 11:32:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.18 11:32:22 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7880330634968705757/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7880330634968705757/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7880330634968705757/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.18 11:32:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.18 11:32:22 INFO  time: connected to build server in 0.27s
+2021.01.18 11:32:22 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.18 11:32:23 INFO  no build target: using presentation compiler with only scala-library
+Jan 18, 2021 11:32:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Jan 18, 2021 11:32:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2021.01.18 11:32:23 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.18 11:32:23 INFO  time: indexed workspace in 1.24s
+2021.01.18 11:32:23 INFO  compiling root (2 scala sources)
+2021.01.18 11:32:23 INFO  time: compiled root in 0.58s
+2021.01.18 11:32:30 INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5656969961412708229/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2021.01.18 11:32:32 INFO  [info] welcome to sbt 1.4.4 (Private Build Java 1.8.0_275)
+2021.01.18 11:32:33 INFO  [info] loading settings for project revproject0-build-build from metals.sbt ...
+2021.01.18 11:32:33 INFO  [info] loading project definition from /home/cjsosh/revproject0/project/project
+2021.01.18 11:32:35 INFO  [info] loading settings for project revproject0-build from metals.sbt ...
+2021.01.18 11:32:35 INFO  [info] loading project definition from /home/cjsosh/revproject0/project
+2021.01.18 11:32:38 INFO  [success] Generated .bloop/revproject0-build.json
+2021.01.18 11:32:39 INFO  [success] Total time: 4 s, completed Jan 18, 2021 11:32:39 AM
+2021.01.18 11:32:42 INFO  [info] loading settings for project root from build.sbt ...
+2021.01.18 11:32:42 INFO  [info] set current project to RevProject0 (in build file:/home/cjsosh/revproject0/)
+2021.01.18 11:32:43 INFO  [success] Generated .bloop/root-test.json
+2021.01.18 11:32:43 INFO  [success] Generated .bloop/root.json
+2021.01.18 11:32:43 INFO  [success] Total time: 1 s, completed Jan 18, 2021 11:32:43 AM
+2021.01.18 11:32:43 INFO  sbt bloopInstall exit: 0
+2021.01.18 11:32:44 INFO  time: ran 'sbt bloopInstall' in 13s
+2021.01.18 11:32:44 INFO  Disconnecting from Bloop session...
+2021.01.18 11:32:44 INFO  Shut down connection with build server.
+2021.01.18 11:32:44 INFO  Shut down connection with build server.
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2021.01.18 11:32:44 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7465052333908903856/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/cjsosh/revproject0/.bloop'...
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/home/cjsosh/revproject0/.bloop/root.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'root', 'root-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7465052333908903856/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7465052333908903856/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.18 11:32:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.18 11:32:44 INFO  Attempting to connect to the build server...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1719606044537224127/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1719606044537224127/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1719606044537224127/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2021.01.18 11:32:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/cjsosh/.cache/metals/bsp.trace.json
+2021.01.18 11:32:44 INFO  time: connected to build server in 0.18s
+2021.01.18 11:32:44 INFO  Connected to Build server v1.4.6-15-209c2a5c
+2021.01.18 11:32:44 WARN  Could not find java sources in None. Java symbols will not be available.
+2021.01.18 11:32:44 INFO  time: indexed workspace in 0.54s
+2021.01.18 11:38:41 INFO  compiling root (5 scala sources)
+2021.01.18 11:38:43 WARN  12 deprecations (since 2.13.0)
+2021.01.18 11:38:43 WARN  1 deprecation (since 2.13.3)
+2021.01.18 11:38:43 WARN  13 deprecations in total; re-run with -deprecation for details
+2021.01.18 11:38:43 INFO  time: compiled root in 2.51s
+2021.01.18 11:40:09 INFO  compiling root (5 scala sources)
+2021.01.18 11:40:11 WARN  12 deprecations (since 2.13.0)
+2021.01.18 11:40:11 WARN  1 deprecation (since 2.13.3)
+2021.01.18 11:40:11 WARN  13 deprecations in total; re-run with -deprecation for details
+2021.01.18 11:40:11 INFO  time: compiled root in 2.22s
+2021.01.18 11:40:40 INFO  compiling root (5 scala sources)
+2021.01.18 11:40:42 WARN  12 deprecations (since 2.13.0)
+2021.01.18 11:40:42 WARN  1 deprecation (since 2.13.3)
+2021.01.18 11:40:42 WARN  13 deprecations in total; re-run with -deprecation for details
+2021.01.18 11:40:42 INFO  time: compiled root in 1.23s
+2021.01.18 11:40:46 INFO  compiling root (5 scala sources)
+2021.01.18 11:40:46 WARN  12 deprecations (since 2.13.0)
+2021.01.18 11:40:46 WARN  1 deprecation (since 2.13.3)
+2021.01.18 11:40:46 WARN  13 deprecations in total; re-run with -deprecation for details
+2021.01.18 11:40:47 INFO  time: compiled root in 1s
+2021.01.18 11:41:19 INFO  compiling root (1 scala source)
+2021.01.18 11:41:19 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 11:41:19 INFO  time: compiled root in 0.82s
+2021.01.18 11:41:21 INFO  compiling root (5 scala sources)
+2021.01.18 11:41:22 WARN  12 deprecations (since 2.13.0)
+2021.01.18 11:41:22 WARN  1 deprecation (since 2.13.3)
+2021.01.18 11:41:22 WARN  13 deprecations in total; re-run with -deprecation for details
+2021.01.18 11:41:22 INFO  time: compiled root in 1.06s
+2021.01.18 11:41:22 INFO  compiling root (5 scala sources)
+2021.01.18 11:41:24 WARN  12 deprecations (since 2.13.0)
+2021.01.18 11:41:24 WARN  1 deprecation (since 2.13.3)
+2021.01.18 11:41:24 WARN  13 deprecations in total; re-run with -deprecation for details
+2021.01.18 11:41:24 INFO  time: compiled root in 0.46s
+2021.01.18 11:41:26 INFO  compiling root (5 scala sources)
+2021.01.18 11:41:26 WARN  12 deprecations (since 2.13.0)
+2021.01.18 11:41:26 WARN  1 deprecation (since 2.13.3)
+2021.01.18 11:41:26 WARN  13 deprecations in total; re-run with -deprecation for details
+2021.01.18 11:41:26 INFO  time: compiled root in 0.9s
+2021.01.18 11:41:35 INFO  compiling root (1 scala source)
+2021.01.18 11:41:35 INFO  time: compiled root in 0.61s
+2021.01.18 11:41:49 INFO  compiling root (1 scala source)
+2021.01.18 11:41:49 INFO  time: compiled root in 0.19s
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala in Array[<error>]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala, 57, 57, 72)
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala in Array[<error>]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala, 57, 57, 65)
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala in Array[<error>]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala, 57, 57, 66)
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala in Array[String]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala, 57, 57, 70)
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala in Array[String]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala, 57, 57, 70)
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala in Array[String]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/Main.scala, 57, 57, 70)
+2021.01.18 11:42:39 INFO  compiling root (1 scala source)
+2021.01.18 11:42:39 INFO  time: compiled root in 61ms
+2021.01.18 11:42:51 INFO  compiling root (1 scala source)
+2021.01.18 11:42:51 INFO  time: compiled root in 58ms
+2021.01.18 11:43:15 INFO  compiling root (2 scala sources)
+2021.01.18 11:43:15 INFO  time: compiled root in 0.11s
+2021.01.18 11:43:26 INFO  compiling root (3 scala sources)
+2021.01.18 11:43:26 INFO  time: compiled root in 0.12s
+2021.01.18 11:43:29 INFO  compiling root (3 scala sources)
+2021.01.18 11:43:29 INFO  time: compiled root in 0.13s
+2021.01.18 11:43:36 INFO  compiling root (6 scala sources)
+2021.01.18 11:43:36 INFO  time: compiled root in 0.12s
+2021.01.18 11:43:43 INFO  compiling root (6 scala sources)
+2021.01.18 11:43:43 INFO  time: compiled root in 0.14s
+2021.01.18 11:43:45 INFO  compiling root (6 scala sources)
+2021.01.18 11:43:45 INFO  time: compiled root in 0.14s
+2021.01.18 11:43:51 INFO  compiling root (6 scala sources)
+2021.01.18 11:43:51 INFO  time: compiled root in 0.13s
+Jan 18, 2021 11:44:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 547
+2021.01.18 11:44:05 INFO  compiling root (6 scala sources)
+2021.01.18 11:44:05 INFO  time: compiled root in 0.12s
+2021.01.18 11:44:15 INFO  compiling root (6 scala sources)
+2021.01.18 11:44:15 INFO  time: compiled root in 0.11s
+2021.01.18 11:44:51 INFO  compiling root (6 scala sources)
+2021.01.18 11:44:51 INFO  time: compiled root in 0.14s
+2021.01.18 11:45:11 INFO  compiling root (6 scala sources)
+2021.01.18 11:45:11 INFO  time: compiled root in 0.11s
+2021.01.18 11:45:27 INFO  compiling root (6 scala sources)
+2021.01.18 11:45:27 INFO  time: compiled root in 0.12s
+2021.01.18 11:45:35 INFO  compiling root (6 scala sources)
+2021.01.18 11:45:35 INFO  time: compiled root in 0.12s
+2021.01.18 11:45:37 INFO  compiling root (6 scala sources)
+2021.01.18 11:45:37 INFO  time: compiled root in 0.11s
+2021.01.18 11:45:57 INFO  compiling root (6 scala sources)
+2021.01.18 11:45:57 INFO  time: compiled root in 0.13s
+Jan 18, 2021 11:46:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 881
+2021.01.18 11:46:24 INFO  compiling root (6 scala sources)
+2021.01.18 11:46:24 INFO  time: compiled root in 0.11s
+Jan 18, 2021 11:46:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 967
+2021.01.18 11:46:50 INFO  compiling root (6 scala sources)
+2021.01.18 11:46:50 INFO  time: compiled root in 0.11s
+2021.01.18 11:47:00 INFO  compiling root (6 scala sources)
+2021.01.18 11:47:00 WARN  12 deprecations (since 2.13.0)
+2021.01.18 11:47:00 WARN  1 deprecation (since 2.13.3)
+2021.01.18 11:47:00 WARN  13 deprecations in total; re-run with -deprecation for details
+2021.01.18 11:47:00 INFO  time: compiled root in 0.85s
+Jan 18, 2021 11:47:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1047
+2021.01.18 11:48:48 INFO  compiling root (1 scala source)
+2021.01.18 11:48:48 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 11:48:48 INFO  time: compiled root in 0.7s
+2021.01.18 11:51:42 INFO  compiling root (1 scala source)
+2021.01.18 11:51:42 INFO  time: compiled root in 77ms
+Jan 18, 2021 11:51:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1271
+2021.01.18 11:51:53 INFO  compiling root (1 scala source)
+2021.01.18 11:51:53 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 11:51:53 INFO  time: compiled root in 0.66s
+Jan 18, 2021 11:53:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1554
+Jan 18, 2021 11:53:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1620
+Jan 18, 2021 11:53:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1649
+2021.01.18 11:54:23 INFO  compiling root (1 scala source)
+2021.01.18 11:54:23 INFO  time: compiled root in 0.11s
+2021.01.18 11:54:26 INFO  compiling root (1 scala source)
+2021.01.18 11:54:26 INFO  time: compiled root in 86ms
+2021.01.18 11:54:34 INFO  compiling root (1 scala source)
+2021.01.18 11:54:34 INFO  time: compiled root in 83ms
+2021.01.18 11:54:40 INFO  compiling root (1 scala source)
+2021.01.18 11:54:40 INFO  time: compiled root in 88ms
+Exception in thread "pool-6-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2021.01.18 11:55:12 INFO  compiling root (1 scala source)
+2021.01.18 11:55:12 INFO  time: compiled root in 83ms
+Exception in thread "pool-6-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Exception in thread "pool-6-thread-3" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+2021.01.18 11:55:25 INFO  compiling root (1 scala source)
+2021.01.18 11:55:25 INFO  time: compiled root in 88ms
+2021.01.18 11:55:34 INFO  compiling root (1 scala source)
+2021.01.18 11:55:34 INFO  time: compiled root in 77ms
+2021.01.18 11:55:38 INFO  compiling root (1 scala source)
+2021.01.18 11:55:38 INFO  time: compiled root in 82ms
+2021.01.18 11:55:47 INFO  compiling root (1 scala source)
+2021.01.18 11:55:48 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 11:55:48 INFO  time: compiled root in 1.15s
+Jan 18, 2021 11:58:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2100
+Jan 18, 2021 11:58:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2159
+Jan 18, 2021 11:58:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2197
+2021.01.18 11:59:06 INFO  compiling root (1 scala source)
+2021.01.18 11:59:06 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 11:59:06 INFO  time: compiled root in 0.71s
+Jan 18, 2021 11:59:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2334
+2021.01.18 11:59:45 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:45 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:50 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:50 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+Jan 18, 2021 11:59:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2396
+2021.01.18 11:59:52 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:55 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:56 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:56 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:56 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:57 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:58 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:58 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:58 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 11:59:58 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:00 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:00 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:00 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:01 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:00 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:01 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:02 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:02 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:02 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:02 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:03 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:03 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:03 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:04 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:89:5: stale bloop warning: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+> try {
+>       if (WordDao.removeWord(Word(arg))) {
+>         println(s"Successfully removed $arg from the database.\n" +
+>           s"Was it too hard for you?")
+>       }
+>     }
+2021.01.18 12:00:12 INFO  compiling root (1 scala source)
+2021.01.18 12:00:12 INFO  time: compiled root in 0.12s
+2021.01.18 12:00:20 INFO  compiling root (1 scala source)
+2021.01.18 12:00:20 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:00:20 INFO  time: compiled root in 0.68s
+Jan 18, 2021 12:00:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2508
+2021.01.18 12:00:39 INFO  compiling root (1 scala source)
+2021.01.18 12:00:39 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:00:39 INFO  time: compiled root in 0.68s
+2021.01.18 12:00:44 INFO  compiling root (1 scala source)
+2021.01.18 12:00:44 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:00:44 INFO  time: compiled root in 0.65s
+Exception in thread "pool-6-thread-4" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+Jan 18, 2021 12:03:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2557
+2021.01.18 12:03:47 INFO  compiling root (1 scala source)
+2021.01.18 12:03:47 INFO  time: compiled root in 0.36s
+Jan 18, 2021 12:05:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2599
+Jan 18, 2021 12:05:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2625
+Jan 18, 2021 12:06:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2650
+2021.01.18 12:06:56 INFO  compiling root (1 scala source)
+2021.01.18 12:06:56 INFO  time: compiled root in 80ms
+2021.01.18 12:07:16 INFO  compiling root (1 scala source)
+2021.01.18 12:07:16 INFO  time: compiled root in 79ms
+2021.01.18 12:07:24 INFO  compiling root (1 scala source)
+2021.01.18 12:07:24 INFO  time: compiled root in 87ms
+2021.01.18 12:08:06 INFO  compiling root (1 scala source)
+2021.01.18 12:08:06 INFO  time: compiled root in 72ms
+2021.01.18 12:08:08 INFO  compiling root (1 scala source)
+2021.01.18 12:08:08 INFO  time: compiled root in 89ms
+2021.01.18 12:08:41 INFO  compiling root (1 scala source)
+2021.01.18 12:08:41 INFO  time: compiled root in 42ms
+2021.01.18 12:08:54 INFO  compiling root (1 scala source)
+2021.01.18 12:08:54 INFO  time: compiled root in 78ms
+2021.01.18 12:09:42 INFO  compiling root (1 scala source)
+2021.01.18 12:09:42 INFO  time: compiled root in 0.1s
+2021.01.18 12:09:48 INFO  compiling root (1 scala source)
+2021.01.18 12:09:48 INFO  time: compiled root in 85ms
+2021.01.18 12:10:06 INFO  compiling root (1 scala source)
+2021.01.18 12:10:06 INFO  time: compiled root in 84ms
+2021.01.18 12:10:48 INFO  compiling root (1 scala source)
+2021.01.18 12:10:48 INFO  time: compiled root in 87ms
+2021.01.18 12:10:56 INFO  compiling root (1 scala source)
+2021.01.18 12:10:56 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:10:56 INFO  time: compiled root in 0.65s
+Jan 18, 2021 12:11:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3096
+Jan 18, 2021 12:11:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3112
+Jan 18, 2021 12:11:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3168
+2021.01.18 12:12:05 INFO  compiling root (1 scala source)
+2021.01.18 12:12:05 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:12:05 INFO  time: compiled root in 0.65s
+2021.01.18 12:16:06 INFO  compiling root (1 scala source)
+2021.01.18 12:16:06 INFO  Deduplicating compilation of root from bsp client 'Metals 0.9.8' (since 43m 22.624s)
+2021.01.18 12:16:06 INFO  time: compiled root in 0.6s
+2021.01.18 12:16:06 INFO  compiling root (1 scala source)
+2021.01.18 12:16:06 INFO  time: compiled root in 12ms
+2021.01.18 12:16:21 INFO  compiling root (1 scala source)
+2021.01.18 12:16:21 INFO  time: compiled root in 88ms
+2021.01.18 12:16:27 INFO  compiling root (1 scala source)
+2021.01.18 12:16:27 INFO  time: compiled root in 80ms
+2021.01.18 12:17:00 INFO  compiling root (1 scala source)
+2021.01.18 12:17:00 INFO  time: compiled root in 92ms
+2021.01.18 12:17:07 INFO  compiling root (1 scala source)
+2021.01.18 12:17:07 INFO  time: compiled root in 74ms
+2021.01.18 12:17:26 INFO  compiling root (1 scala source)
+2021.01.18 12:17:26 INFO  time: compiled root in 89ms
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:143:37: stale bloop error: not found: value guessChar
+      if (attemptedLetters.contains(guessChar + ", ")) {
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:145:37: stale bloop error: not found: value guessChar
+      } else if (splitWord.contains(guessChar)) {
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:148:15: stale bloop error: not found: value guessChar
+          if (guessChar.equals(splitWord(index))) {
+              ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:150:37: stale bloop error: not found: value guessChar
+            correctLetters(index) = guessChar + " "
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:158:67: stale bloop error: not found: value guessChar
+      attemptedLetters = updateAttemptedLetters(attemptedLetters, guessChar)
+                                                                  ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:143:37: stale bloop error: not found: value guessChar
+      if (attemptedLetters.contains(guessChar + ", ")) {
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:145:37: stale bloop error: not found: value guessChar
+      } else if (splitWord.contains(guessChar)) {
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:148:15: stale bloop error: not found: value guessChar
+          if (guessChar.equals(splitWord(index))) {
+              ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:150:37: stale bloop error: not found: value guessChar
+            correctLetters(index) = guessChar + " "
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:158:67: stale bloop error: not found: value guessChar
+      attemptedLetters = updateAttemptedLetters(attemptedLetters, guessChar)
+                                                                  ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:143:37: stale bloop error: not found: value guessChar
+      if (attemptedLetters.contains(guessChar + ", ")) {
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:145:37: stale bloop error: not found: value guessChar
+      } else if (splitWord.contains(guessChar)) {
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:148:15: stale bloop error: not found: value guessChar
+          if (guessChar.equals(splitWord(index))) {
+              ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:150:37: stale bloop error: not found: value guessChar
+            correctLetters(index) = guessChar + " "
+                                    ^^^^^^^^^
+2021.01.18 12:18:33 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:158:67: stale bloop error: not found: value guessChar
+      attemptedLetters = updateAttemptedLetters(attemptedLetters, guessChar)
+                                                                  ^^^^^^^^^
+2021.01.18 12:18:34 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:143:37: stale bloop error: not found: value guessChar
+      if (attemptedLetters.contains(guessChar + ", ")) {
+                                    ^^^^^^^^^
+2021.01.18 12:18:34 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:145:37: stale bloop error: not found: value guessChar
+      } else if (splitWord.contains(guessChar)) {
+                                    ^^^^^^^^^
+2021.01.18 12:18:34 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:148:15: stale bloop error: not found: value guessChar
+          if (guessChar.equals(splitWord(index))) {
+              ^^^^^^^^^
+2021.01.18 12:18:34 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:150:37: stale bloop error: not found: value guessChar
+            correctLetters(index) = guessChar + " "
+                                    ^^^^^^^^^
+2021.01.18 12:18:34 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:158:67: stale bloop error: not found: value guessChar
+      attemptedLetters = updateAttemptedLetters(attemptedLetters, guessChar)
+                                                                  ^^^^^^^^^
+2021.01.18 12:19:05 INFO  compiling root (1 scala source)
+2021.01.18 12:19:05 INFO  time: compiled root in 89ms
+Jan 18, 2021 12:19:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3652
+2021.01.18 12:19:54 INFO  compiling root (1 scala source)
+2021.01.18 12:19:54 INFO  time: compiled root in 76ms
+2021.01.18 12:20:14 INFO  compiling root (1 scala source)
+2021.01.18 12:20:14 INFO  time: compiled root in 53ms
+2021.01.18 12:20:33 INFO  compiling root (1 scala source)
+2021.01.18 12:20:33 INFO  time: compiled root in 78ms
+2021.01.18 12:21:09 INFO  compiling root (1 scala source)
+2021.01.18 12:21:09 INFO  time: compiled root in 90ms
+2021.01.18 12:21:36 INFO  compiling root (1 scala source)
+2021.01.18 12:21:36 INFO  time: compiled root in 80ms
+Jan 18, 2021 12:21:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3951
+Jan 18, 2021 12:21:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4029
+2021.01.18 12:21:57 INFO  compiling root (1 scala source)
+2021.01.18 12:21:57 INFO  time: compiled root in 98ms
+2021.01.18 12:21:59 INFO  compiling root (1 scala source)
+2021.01.18 12:21:59 INFO  time: compiled root in 81ms
+2021.01.18 12:22:01 INFO  compiling root (1 scala source)
+2021.01.18 12:22:01 INFO  time: compiled root in 90ms
+2021.01.18 12:22:19 INFO  compiling root (1 scala source)
+2021.01.18 12:22:19 INFO  time: compiled root in 76ms
+2021.01.18 12:22:25 INFO  compiling root (1 scala source)
+2021.01.18 12:22:25 INFO  time: compiled root in 90ms
+2021.01.18 12:22:34 INFO  compiling root (1 scala source)
+2021.01.18 12:22:34 INFO  time: compiled root in 79ms
+2021.01.18 12:22:45 INFO  compiling root (1 scala source)
+2021.01.18 12:22:45 INFO  time: compiled root in 86ms
+2021.01.18 12:23:39 INFO  compiling root (1 scala source)
+2021.01.18 12:23:39 INFO  time: compiled root in 75ms
+2021.01.18 12:23:40 INFO  compiling root (1 scala source)
+2021.01.18 12:23:40 INFO  time: compiled root in 93ms
+2021.01.18 12:23:45 INFO  compiling root (1 scala source)
+2021.01.18 12:23:45 INFO  time: compiled root in 77ms
+2021.01.18 12:24:21 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:141:30: stale bloop error: type mismatch;
+ found   : String("a")
+ required: Char
+      var guessChar : Char = "a"
+                             ^^^
+2021.01.18 12:24:21 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:141:30: stale bloop error: type mismatch;
+ found   : String("a")
+ required: Char
+      var guessChar : Char = "a"
+                             ^^^
+2021.01.18 12:24:22 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:141:30: stale bloop error: type mismatch;
+ found   : String("a")
+ required: Char
+      var guessChar : Char = "a"
+                             ^^^
+2021.01.18 12:24:22 INFO  /home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala:141:30: stale bloop error: type mismatch;
+ found   : String("a")
+ required: Char
+      var guessChar : Char = "a"
+                             ^^^
+2021.01.18 12:24:24 INFO  compiling root (1 scala source)
+2021.01.18 12:24:24 INFO  time: compiled root in 0.6s
+2021.01.18 12:24:45 INFO  compiling root (1 scala source)
+2021.01.18 12:24:45 INFO  time: compiled root in 0.59s
+2021.01.18 12:25:53 INFO  compiling root (1 scala source)
+2021.01.18 12:25:53 INFO  time: compiled root in 0.63s
+2021.01.18 12:26:17 INFO  compiling root (1 scala source)
+2021.01.18 12:26:17 INFO  time: compiled root in 0.7s
+2021.01.18 12:26:19 INFO  compiling root (1 scala source)
+2021.01.18 12:26:19 INFO  time: compiled root in 0.59s
+Jan 18, 2021 12:26:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4349
+2021.01.18 12:26:46 INFO  compiling root (1 scala source)
+2021.01.18 12:26:46 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:26:46 INFO  time: compiled root in 0.7s
+2021.01.18 12:26:52 INFO  compiling root (1 scala source)
+2021.01.18 12:26:52 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:26:53 INFO  time: compiled root in 1.01s
+2021.01.18 12:27:01 INFO  compiling root (1 scala source)
+2021.01.18 12:27:01 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:27:01 INFO  time: compiled root in 0.62s
+2021.01.18 12:27:09 INFO  compiling root (1 scala source)
+2021.01.18 12:27:09 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:27:09 INFO  time: compiled root in 0.61s
+Jan 18, 2021 12:30:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4446
+Jan 18, 2021 12:30:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4463
+2021.01.18 12:30:33 INFO  compiling root (1 scala source)
+2021.01.18 12:30:33 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:30:33 INFO  time: compiled root in 0.71s
+something's wrong: no file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala in scala.collection.mutable.Set[String]RangePosition(file:///home/cjsosh/revproject0/src/main/scala/com/revature/app/cli/CLI.scala, 5575, 5575, 5586)
+2021.01.18 12:30:46 INFO  compiling root (1 scala source)
+2021.01.18 12:30:46 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:30:46 INFO  time: compiled root in 0.67s
+2021.01.18 12:31:00 INFO  compiling root (1 scala source)
+2021.01.18 12:31:00 WARN  10 deprecations (since 2.13.0); re-run with -deprecation for details
+2021.01.18 12:31:00 INFO  time: compiled root in 0.67s
+2021.01.18 12:35:09 INFO  compiling root (1 scala source)
+2021.01.18 12:35:09 INFO  time: compiled root in 0.49s
+2021.01.18 12:35:26 INFO  compiling root (1 scala source)
+2021.01.18 12:35:26 INFO  time: compiled root in 0.47s
+Jan 18, 2021 12:45:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
