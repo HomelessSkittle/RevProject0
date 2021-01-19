@@ -34,7 +34,8 @@ class CLI {
         "(Note: Commands are NOT case sensitive)\n\n" +
         "Play - Begins a new game of Hangman with a new word.\n" +
         "List - Lists all the words the computer can select for a game.\n" +
-        "Add <new word> - Adds a word to the list of words.\n" +
+        "Add <new word> - Adds a word to the database of words.\n" +
+        "AddAll <File name> - Adds all words from a file to the database\n" +
         "Remove <target word> - Removes a word from the list.\n" +
         "exit - Ends the program.\n"
     )
@@ -47,7 +48,8 @@ class CLI {
       "Here is a list of all the words the computer may choose:\n" +
         "--------------------------------------------------------"
     )
-    WordDao.getAll().foreach(println)
+    WordDao.getAll().foreach(word => println(word.wordString))
+    println()
   }
 
   /** Adds a word to the list the computer may choose from
@@ -57,16 +59,29 @@ class CLI {
   def addWord(arg: String) {
     try {
       if (WordDao.addNew(Word(arg))) {
-        println(s"Successfully added $arg to the database.")
+        println(s"Successfully added $arg to the database.\n")
       }
     } catch {
       case e: Exception => {
         println(
           s"Something went wrong ¯\\_(ツ)_/¯ \n" +
-            s"Failed to add $arg to the database."
+            s"Failed to add $arg to the database.\n"
         )
       }
     }
+  }
+
+  def addAll(arg: String) {
+    val fileString = FileUtil.getFileString(arg)
+    val splitString = fileString.split(" ")
+    splitString.foreach(word => {
+      var result = WordDao.addNew(Word(word))
+      if (!result) {
+        println(s"Failed to add $word to the database.")
+      }
+    })
+    println("Finished adding all the words from the file!\n" +
+      "Any words not added are were listed above.\n")
   }
 
   /** Removes a word from the list the computer may choose from
@@ -78,14 +93,14 @@ class CLI {
       if (WordDao.removeWord(Word(arg))) {
         println(
           s"Successfully removed $arg from the database.\n" +
-            s"Was it too hard for you?"
+            s"Was it too hard for you?\n"
         )
       }
     } catch {
       case e: Exception => {
         println(
           s"Something went wrong ¯\\_(ツ)_/¯ \n" +
-            s"Failed to remove $arg from the database."
+            s"Failed to remove $arg from the database.\n"
         )
       }
     }
@@ -117,58 +132,62 @@ class CLI {
     var correctLetters = ArrayBuffer[String]()
     var attemptedLetters = Set[String]()
     var correctGuesses = 0
+    var totalGuesses = 0
 
-    println("Okay. Good luck!\n")
+    println("Okay. Remember you can enter '.' while playing to end the round!\n")
     println(s"Your word has ${splitWord.size} letters")
     splitWord.foreach(_ => correctLetters += "_ ")
 
     println("How many guesses would you like?")
-    val totalGuesses = StdIn.readInt()
+    try {
+      totalGuesses = StdIn.readInt()
+    } catch {
+      case nfe: NumberFormatException => {
+        println(
+          "I need a number boss, not a letter.\n" +
+            "Restarting the game . . . \n\n"
+        )
+        startGame()
+      }
+    }
 
     var continueGame = true
+    var quitRound = false
 
     while (continueGame) {
       correctLetters.foreach(print)
       println("\n")
       println(s"Guesses left: ${totalGuesses - currentGuesses}")
       println("Guess a letter:")
-      var guessString = StdIn.readLine().toLowerCase()
-      var guessChar : Char = 'a'
+      var guessChar = StdIn.readChar().toLower
       println()
       var index = 0
 
-      var quitRound = false
-      if (guessString.equalsIgnoreCase("exit")) {
-        var quitRound = true
+      if (guessChar == '.') {
+        println("Ended the round.\n")
+        continueGame = false
+      } else if (attemptedLetters.contains(guessChar + ", ")) {
+        println("You already tried that letter, choose a different one.")
+      } else if (splitWord.contains(guessChar)) {
+        println("Correct!")
+        for (index <- 0 until splitWord.size) {
+          if (guessChar.equals(splitWord(index))) {
+            correctGuesses += 1
+            correctLetters(index) = guessChar + " "
+          }
+        }
       } else {
-        guessChar = guessString.charAt(0)
+        println("Good guess, but not this time.")
+        currentGuesses += 1
       }
 
-      if (!quitRound) {
-        if (attemptedLetters.contains(guessChar + ", ")) {
-          println("You already tried that letter, choose a different one.")
-        } else if (splitWord.contains(guessChar)) {
-          println("Correct!")
-          for (index <- 0 until splitWord.size) {
-            if (guessChar.equals(splitWord(index))) {
-              correctGuesses += 1
-              correctLetters(index) = guessChar + " "
-            }
-          }
-        } else {
-          println("Good guess, but not this time.")
-          currentGuesses += 1
-        }
-
+      if (continueGame) {
         attemptedLetters = updateAttemptedLetters(attemptedLetters, guessChar)
 
         continueGame = testUserWin(correctGuesses, splitWord.size)
         if (continueGame) {
           continueGame = testUserLoss(currentGuesses, totalGuesses)
         }
-      } else {
-        println("Okay, ending this round.\n")
-        continueGame = false
       }
     }
   }
@@ -179,7 +198,7 @@ class CLI {
     * @param guessChar - Most recent character the user has guessed
     * @return - Returns the Set[String] of characters the user has guessed so far
     */
-  def updateAttemptedLetters(attemptedLetters: Set[String], guessChar: Char ): Set[String] = {
+  def updateAttemptedLetters(attemptedLetters: Set[String], guessChar: Char): Set[String] = {
     attemptedLetters += guessChar + ", "
     print("Letters you've guessed: ")
     attemptedLetters.foreach(print)
@@ -211,7 +230,7 @@ class CLI {
     * @return - Returns false if the user has lost, otherwise true
     */
   def testUserLoss(currentGuesses: Int, totalGuesses: Int): Boolean = {
-    if (currentGuesses == totalGuesses) {
+    if (currentGuesses >= totalGuesses) {
       println("Looks like I win this round!")
       println(
         "Type 'play' to try again, 'exit' to quit, or 'help' to see more options.\n"
@@ -245,6 +264,9 @@ class CLI {
         }
         case commandArgPattern(cmd, arg) if cmd.equalsIgnoreCase("add") => {
           addWord(arg)
+        }
+        case commandArgPattern(cmd, arg) if cmd.equalsIgnoreCase("addall") => {
+          addAll(arg)
         }
         case commandArgPattern(cmd, arg) if cmd.equalsIgnoreCase("remove") => {
           deleteWord(arg)

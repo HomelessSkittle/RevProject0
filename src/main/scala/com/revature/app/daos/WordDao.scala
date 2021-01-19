@@ -13,7 +13,7 @@ object WordDao {
   def getAll(): Seq[Word] = {
     val conn = ConnectionUtil.getConnection()
     Using.Manager { use => 
-      val stmt = use(conn.prepareStatement("SELECT * FROM words;"))
+      val stmt = use(conn.prepareStatement("SELECT * FROM project0.words;"))
       stmt.execute()
       val rs = use(stmt.getResultSet())
       val allWords: ArrayBuffer[Word] = ArrayBuffer()
@@ -33,7 +33,7 @@ object WordDao {
   def addNew(word : Word): Boolean = {
     val conn = ConnectionUtil.getConnection()
     Using.Manager { use => 
-      val stmt = use(conn.prepareStatement("INSERT INTO words VALUES (?);"))
+      val stmt = use(conn.prepareStatement("INSERT INTO project0.words VALUES (?);"))
       stmt.setString(1, word.wordString.toLowerCase())
       stmt.execute()
 
@@ -50,7 +50,7 @@ object WordDao {
   def removeWord(word : Word): Boolean = {
     val conn = ConnectionUtil.getConnection()
     Using.Manager { use => 
-      val stmt = use(conn.prepareStatement("DELETE FROM words WHERE term = (?)"))
+      val stmt = use(conn.prepareStatement("DELETE FROM project0.words WHERE term = (?)"))
       stmt.setString(1, word.wordString.toLowerCase())
       stmt.execute()
 

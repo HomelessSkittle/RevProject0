@@ -14,14 +14,14 @@ object FileUtil {
     * @param sep - The separator used between lines in returned string of the file
     * @return - The text of a file, where words are separated by 'sep', or an empty string.
     */
-  def getFileSource(filename: String = "words.csv"): BufferedSource = {
+  def getFileSource(filename: String): BufferedSource = {
     Source.fromFile(filename)
   }
 
-  def getFileString(): String = {
+  def getFileString(filename: String): String = {
     var sourceFile: BufferedSource = null
     try {
-      sourceFile = getFileSource()
+      sourceFile = getFileSource(filename)
       return sourceFile.getLines.mkString(" ")
     } finally {
       if (sourceFile != null) {
@@ -30,22 +30,4 @@ object FileUtil {
     }
   }
 
-  def writeToFile(inputWord: String) {
-    val writer = new BufferedWriter(new FileWriter("words.csv", true))
-    writer.newLine()
-    writer.write(inputWord)
-    writer.close()
-  }
-
-  def removeFromFile(removeWord: String) {
-    val fullString = getFileString().split(" ")
-    val writer = new BufferedWriter (new FileWriter("words.csv"))
-    fullString.foreach(currString => {
-      if (!(currString.equalsIgnoreCase(removeWord))) {
-        writer.write(currString)
-        writer.newLine()
-      }
-    })
-    writer.close()
-  }
 }
