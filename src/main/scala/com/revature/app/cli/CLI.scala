@@ -60,6 +60,8 @@ class CLI {
     try {
       if (WordDao.addNew(Word(arg))) {
         println(s"Successfully added $arg to the database.\n")
+      } else {
+        println(s"Failed to add $arg to the databse.\n")
       }
     } catch {
       case e: Exception => {
@@ -95,6 +97,8 @@ class CLI {
           s"Successfully removed $arg from the database.\n" +
             s"Was it too hard for you?\n"
         )
+      } else {
+        println(s"Failed to remove $arg from the database.\n")
       }
     } catch {
       case e: Exception => {
