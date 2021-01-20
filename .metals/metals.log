@@ -6920,3 +6920,5 @@ WARNING: Unmatched cancel notification for request id 2096
 2021.01.20 10:55:00 INFO  compiling root (1 scala source)
 2021.01.20 10:55:00 WARN  12 deprecations (since 2.13.0); re-run with -deprecation for details
 2021.01.20 10:55:00 INFO  time: compiled root in 0.86s
+2021.01.20 10:55:48 INFO  compiling root (1 scala source)
+2021.01.20 10:55:48 INFO  time: compiled root in 0.57s

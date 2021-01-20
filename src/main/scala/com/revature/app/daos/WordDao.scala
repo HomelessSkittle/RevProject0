@@ -6,7 +6,7 @@ import com.revature.app.utils.ConnectionUtil
 import com.revature.app.models.Word
 
 /**
-  * A Word Data Access Object. WordDao has the CR"U"D methods for a Word
+  * A Word Data Access Object. WordDao has the CRUD methods for a Word
   */
 object WordDao {
 
