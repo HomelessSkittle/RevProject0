@@ -36,6 +36,7 @@ class CLI {
         "Play - Begins a new game of Hangman with a new word.\n" +
         "List - Lists all the words the computer can select for a game.\n" +
         "Add <new word> - Adds a word to the database of words.\n" +
+        "Update <old word> <new word> - Changes an existing word in the database to a new word.\n" +
         "AddAll <File name> - Adds all words from a file to the database\n" +
         "Remove <target word> - Removes a word from the list.\n" +
         "exit - Ends the program.\n"
