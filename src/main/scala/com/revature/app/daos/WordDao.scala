@@ -57,4 +57,23 @@ object WordDao {
       stmt.getUpdateCount() > 0
     }.getOrElse(false)
   }
+
+  /**
+    * Updates a word in the database
+    *
+    * @param currWord - The word to be changed in the database
+    * @param newWord - The updated version of the word
+    * @return - Boolean true/false if update was successful/failed
+    */
+  def updateWord(currWord: Word, newWord: Word): Boolean = {
+    val conn = ConnectionUtil.getConnection()
+    Using.Manager { use => 
+      val stmt = use(conn.prepareStatement("UPDATE project0.words SET term = (?) WHERE term = (?);"))
+      stmt.setString(1, newWord.wordString.toLowerCase())
+      stmt.setString(2, currWord.wordString.toLowerCase())
+      stmt.execute()
+
+      stmt.getUpdateCount() > 0
+    }.getOrElse(false)
+  }
 }

@@ -13,6 +13,7 @@ import com.revature.app.models.Word
 class CLI {
   val commandPattern: Regex = "(\\w+)".r
   val commandArgPattern: Regex = "(\\w+)\\s*(.*)".r
+  val updateArgPattern: Regex = "(\\w+)\\s*(\\w+)\\s*(\\w+)".r
   var words = Seq[Word]()
 
   /** Basic greeting for the Hangman Application
@@ -92,6 +93,22 @@ class CLI {
       "Any words not added are were listed above.\n")
   }
 
+  def update(arg1: String, arg2: String) {
+    try {
+      if (WordDao.updateWord((Word(arg1)), (Word(arg2)))) {
+        println(s"Successfully changed $arg1 to $arg2 \n")
+      } else {
+        println(s"Failed to change $arg1 to $arg2")
+      }
+    } catch {
+      case e: Exception => {
+        println(
+          s"Something went wrong ¯\\_(ツ)_/¯ \n" +
+            s"Failed to change $arg1 to $arg2.\n"
+        )
+      }
+    }
+  }
   /** Removes a word from the list the computer may choose from
     *
     * @param arg - The string to be removed from the list
@@ -273,6 +290,9 @@ class CLI {
         }
         case commandArgPattern(cmd, arg) if cmd.equalsIgnoreCase("addall") => {
           addAll(arg)
+        }
+        case updateArgPattern(cmd, arg1, arg2) if cmd.equalsIgnoreCase("update") => {
+          update(arg1, arg2)
         }
         case commandArgPattern(cmd, arg) if cmd.equalsIgnoreCase("remove") => {
           deleteWord(arg)
