@@ -7,6 +7,11 @@ object ConnectionUtil {
 
   var conn: Connection = null
 
+  /**
+    * Creates a connection to the locally hosted database of words
+    *
+    * @return - A connection object to the database
+    */
   def getConnection(): Connection = {
 
     if (conn == null || conn.isClosed()) {

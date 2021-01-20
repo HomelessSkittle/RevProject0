@@ -73,6 +73,12 @@ class CLI {
     }
   }
 
+  /**
+    * Adds all words from a file to the list the computer may choose from
+    *
+    * @param arg - The file containing all the words to add. Words should
+    *               each be listed on a new line
+    */
   def addAll(arg: String) {
     val fileString = FileUtil.getFileString(arg)
     val splitString = fileString.split(" ")
@@ -125,10 +131,6 @@ class CLI {
     * First reads user input for number of guesses, then
     *   continues the game until the user successfully completes a
     *   game or runs out of guesses
-    *
-    * Edge Cases I don't feel like handling:
-    *  - User gives an absurdly high number of guesses
-    *     Not technically an issue, but it's a guaranteed win
     */
   def startGame() {
     var splitWord = selectWord()
